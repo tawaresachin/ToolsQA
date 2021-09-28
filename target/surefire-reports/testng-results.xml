@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HomePage" duration-ms="56780" started-at="2021-09-22T10:34:33Z" finished-at="2021-09-22T10:35:29Z">
+    <groups>
+    </groups>
+    <test name="toolsqaHomeTest" duration-ms="56780" started-at="2021-09-22T10:34:33Z" finished-at="2021-09-22T10:35:29Z">
+      <class name="com.cybage.assignment.test.alertFrameWindowPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="testSetUp" is-config="true" duration-ms="7484" started-at="2021-09-22T10:34:33Z" finished-at="2021-09-22T10:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3005" started-at="2021-09-22T10:34:40Z" finished-at="2021-09-22T10:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validatePresenceOfAlertFrameWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validatePresenceOfAlertFrameWindowOptions" duration-ms="285" started-at="2021-09-22T10:34:43Z" finished-at="2021-09-22T10:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePresenceOfAlertFrameWindowOptions -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="301" started-at="2021-09-22T10:34:43Z" finished-at="2021-09-22T10:34:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePresenceOfAlertFrameWindowOptions status=SUCCESS method=alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3001" started-at="2021-09-22T10:34:44Z" finished-at="2021-09-22T10:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateAlertsOption()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateAlertsOption" duration-ms="18257" started-at="2021-09-22T10:34:47Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAlertsOption -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-22T10:35:05Z" finished-at="2021-09-22T10:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAlertsOption status=SUCCESS method=alertFrameWindowPageTest.validateAlertsOption()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3005" started-at="2021-09-22T10:35:05Z" finished-at="2021-09-22T10:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateBrowserWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateBrowserWindowOptions" duration-ms="5295" started-at="2021-09-22T10:35:08Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrowserWindowOptions -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-22T10:35:13Z" finished-at="2021-09-22T10:35:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBrowserWindowOptions status=SUCCESS method=alertFrameWindowPageTest.validateBrowserWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3011" started-at="2021-09-22T10:35:13Z" finished-at="2021-09-22T10:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateIFrameOperations()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateIFrameOperations" duration-ms="4435" started-at="2021-09-22T10:35:16Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIFrameOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="0" started-at="2021-09-22T10:35:21Z" finished-at="2021-09-22T10:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateIFrameOperations status=SUCCESS method=alertFrameWindowPageTest.validateIFrameOperations()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3002" started-at="2021-09-22T10:35:21Z" finished-at="2021-09-22T10:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateModalDialogsOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateModalDialogsOperation" duration-ms="1527" started-at="2021-09-22T10:35:24Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateModalDialogsOperation -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-22T10:35:25Z" finished-at="2021-09-22T10:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateModalDialogsOperation status=SUCCESS method=alertFrameWindowPageTest.validateModalDialogsOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3007" started-at="2021-09-22T10:35:25Z" finished-at="2021-09-22T10:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateNestedFramesOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateNestedFramesOperation" duration-ms="413" started-at="2021-09-22T10:35:28Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNestedFramesOperation -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-22T10:35:29Z" finished-at="2021-09-22T10:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNestedFramesOperation status=SUCCESS method=alertFrameWindowPageTest.validateNestedFramesOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="testCleanUp" is-config="true" duration-ms="735" started-at="2021-09-22T10:35:29Z" finished-at="2021-09-22T10:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+      </class> <!-- com.cybage.assignment.test.alertFrameWindowPageTest -->
+    </test> <!-- toolsqaHomeTest -->
+  </suite> <!-- HomePage -->
+</testng-results>
