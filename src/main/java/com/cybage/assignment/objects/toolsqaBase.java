@@ -10,36 +10,33 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import static com.cybage.assignment.objects.utilities.genericProp;
 
 public class toolsqaBase
 {
-  protected static WebDriver driver;
-  protected static Properties prop;
+  private static WebDriver driver;
   static FileInputStream file;
   static ChromeOptions options;
-  static String path ="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
-    public static String genericProp(String path, String param) throws IOException       //Generic method to read properties file
-   {
-       file=new FileInputStream(path);
-       prop=new Properties();
-       prop.load(file);
-       return (prop.getProperty(param));
-   }
+  public static  String appPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\webAppGeneric.properties";
+  public static  String genPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
+
 
    public static void initialize() throws IOException                                  //set browser specific property
     {
         Map<String, Object> prefs = new HashMap<>();
-        prefs.put("profile.default_content_setting_values.notifications", 2);
-       switch(genericProp(path,"browser"))
+        prefs.put("profile.default_content_setting_values.notifications", 2);       //to turn off browser notifications
+       switch(genericProp(genPath,"browser"))
        {
            case "firefox":
-               System.setProperty(genericProp(path,"geckoProperty"),genericProp(path,"geckoPath"));
+               System.setProperty(genericProp(genPath,"geckoProperty"),genericProp(genPath,"geckoPath"));
                break;
            case "edge":
-               System.setProperty(genericProp(path,"edgeProperty"),genericProp(path,"edgePath"));
+               System.setProperty(genericProp(genPath,"edgeProperty"),genericProp(genPath,"edgePath"));
                break;
            default :
-               System.setProperty(genericProp(path,"chromeProperty"), genericProp(path,"chromePath"));
+               System.setProperty(genericProp(genPath,"chromeProperty"), genericProp(genPath,"chromePath"));
                options=new ChromeOptions();
                options.setExperimentalOption("prefs", prefs);
                break;
@@ -48,7 +45,7 @@ public class toolsqaBase
    public static WebDriver browserFactory() throws IOException                           //create browser specific webdriver
    {
 
-       switch (genericProp(path,"browser"))
+       switch (genericProp(genPath,"browser"))
        {
            case "firefox":
                driver=new FirefoxDriver();
@@ -60,6 +57,7 @@ public class toolsqaBase
                driver=new ChromeDriver(options);
                break;
        }
+//       driver.manage().timeouts().setScriptTimeout(20000,TimeUnit.MILLISECONDS);
        return driver;
    }
 

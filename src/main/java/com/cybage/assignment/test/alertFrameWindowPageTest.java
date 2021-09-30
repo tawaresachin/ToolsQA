@@ -2,7 +2,6 @@ package com.cybage.assignment.test;
 
 import com.cybage.assignment.objects.locators;
 import com.cybage.assignment.page.alertsFrameWindowPage;
-import com.cybage.assignment.page.formsPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -12,23 +11,23 @@ import java.io.IOException;
 
 import static com.cybage.assignment.objects.toolsqaBase.*;
 import static com.cybage.assignment.objects.utilities.*;
-import static com.cybage.assignment.objects.utilities.Xpath;
 
 public class alertFrameWindowPageTest extends locators
 {
-    static String appPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\webAppGeneric.properties";
-    static String genPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
-    static alertsFrameWindowPage alertFrameWindow;
-    String TCID;
+
+    static final String TC="Test Case ";
+    alertsFrameWindowPage alertFrameWindow;
+    private String tcID;
     String str;
     SoftAssert ass;
-    WebDriver driver;
-
+    private WebDriver driver;
+    private final ThreadLocal<WebDriver> webdriver = new ThreadLocal<>();
     @BeforeClass
     public void testSetUp() throws IOException
     {
         initialize();
-        driver = browserFactory();
+        webdriver.set(browserFactory());
+        driver=webdriver.get();
         driver.get(genericProp(appPath,"url"));
         driver.manage().window().maximize();
         implicitWaitSEC(driver,20);
@@ -45,7 +44,7 @@ public class alertFrameWindowPageTest extends locators
     @Test
     public void validatePresenceOfAlertFrameWindowOptions()
     {
-        TCID="TC023";
+        tcID="TC023";
         ass.assertTrue(alertFrameWindow.checkPresenceOfBrowserWindowOption(driver),"Browser Window oOption is not accessible");
         ass.assertTrue(alertFrameWindow.checkPresenceOfAlertsOption(driver),"Alert option is not accessible");
         ass.assertTrue(alertFrameWindow.checkPresenceOfFramesOption(driver),"Frames option is not accessible");
@@ -57,7 +56,7 @@ public class alertFrameWindowPageTest extends locators
     @Test (dependsOnMethods = "validatePresenceOfAlertFrameWindowOptions")
     public void validateBrowserWindowOptions() throws InterruptedException
     {
-        TCID="TC024";
+        tcID="TC024";
         str="Knowledge increases by sharing but not by saving. Please share this website with your friends and in your organization.";
         ass.assertEquals(alertFrameWindow.clickOnBrowserWindowOption(driver),"Browser Windows");
         ass.assertTrue(alertFrameWindow.clickOnNewTabButton(driver),"New Tab button is not accessible");
@@ -67,7 +66,7 @@ public class alertFrameWindowPageTest extends locators
     }
     @Test(dependsOnMethods = "validatePresenceOfAlertFrameWindowOptions")
     public void validateAlertsOption() throws InterruptedException {
-        TCID="TC025";
+        tcID="TC025";
         boolean result;
         ass.assertEquals(alertFrameWindow.clickOnAlertOption(driver),"Alerts");
         ass.assertTrue(alertFrameWindow.clickOnSimpleAlertButton(driver),"Simple Alert is not accessible");
@@ -85,7 +84,7 @@ public class alertFrameWindowPageTest extends locators
 
     @Test (dependsOnMethods = "validatePresenceOfAlertFrameWindowOptions")
     public void validateIFrameOperations() throws InterruptedException {
-        TCID="TC026";
+        tcID="TC026";
         ass.assertEquals(alertFrameWindow.clickOnFramesOption(driver),"Frames");
         ass.assertEquals(alertFrameWindow.switchToSimpleFrame(driver),"Simple Frame");
         ass.assertEquals(alertFrameWindow.switchToScrollableFrame(driver),"Scrollable Frame");
@@ -96,7 +95,7 @@ public class alertFrameWindowPageTest extends locators
     @Test (dependsOnMethods = "validatePresenceOfAlertFrameWindowOptions")
     public void validateNestedFramesOperation()
     {
-        TCID="TC027";
+        tcID="TC027";
         ass.assertEquals(alertFrameWindow.clickOnNestedFramesOption(driver),"Nested Frames");
         ass.assertEquals(alertFrameWindow.switchToParentFrame(driver),"Parent frame");
         ass.assertEquals(alertFrameWindow.switchToChildFrame(driver),"Child Iframe");
@@ -107,9 +106,9 @@ public class alertFrameWindowPageTest extends locators
 
     @Test (dependsOnMethods = "validatePresenceOfAlertFrameWindowOptions")
     public void validateModalDialogsOperation() throws IOException {
-        TCID="TC028";
-        String arr1[]={genericProp(genPath,"excelpath"),"Sheet2"};
-        int arr2[]={0,0};
+        tcID="TC028";
+        String[] arr1={genericProp(genPath,"excelpath"),"Sheet2"};
+        int[] arr2={0,0};
         String paragraph=readWorkbook(arr1,arr2);
         ass.assertEquals(alertFrameWindow.clickOnModalDialogOption(driver),"Modal Dialogs");
         ass.assertEquals(alertFrameWindow.clickOnSmallModelButton(driver),"Small modal");
@@ -129,25 +128,31 @@ public class alertFrameWindowPageTest extends locators
     {
         if(ITestResult.SUCCESS==result.getStatus())
         {
-            str="Test Case "+TCID+" is PASS";
+            str=TC+tcID+" is PASS";
             logs(str);
         }
         else if(ITestResult.FAILURE==result.getStatus())
         {
-            screenshot(TCID);
-            str="Test Case "+TCID+" is FAILED";
+            screenshot(driver, tcID);
+            str=TC+tcID+" is FAILED";
             logs(str);
         }
         else if(ITestResult.SKIP==result.getStatus())
         {
-            str="Test Case "+TCID+" is SKIPPED";
+            str=TC+tcID+" is SKIPPED";
             logs(str);
         }
     }
     @AfterClass
     public void testCleanUp()
     {
+        driver.close();
         driver.quit();
+    }
+    @AfterTest
+    public void releaseDriver()
+    {
+        webdriver.remove();
         driver=null;
     }
 }

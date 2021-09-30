@@ -18,22 +18,24 @@ import static com.cybage.assignment.objects.utilities.*;
 
 public class toolsqaElementPageTest extends locators
 {
-    static String appPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\webAppGeneric.properties";
-    static String genPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
     elementsPage elementPage;
     static Boolean result;
+    static final String TC="Test Case ";
     String TCID;
     String str;
     SoftAssert ass;
-    WebDriver driver;
+    private WebDriver driver;
+    private final ThreadLocal<WebDriver> webdriver = new ThreadLocal<>();
 
     @BeforeClass
     public void testSetUp() throws IOException
     {
         initialize();
-        driver = browserFactory();
+        webdriver.set(browserFactory());
+        driver=webdriver.get();
         driver.get(genericProp(appPath,"url"));
         driver.manage().window().maximize();
+        pageReadyWait(driver);
         implicitWaitSEC(driver,20);
         scrollIntoView(driver,Xpath(driver,elementTab));
         Xpath(driver,elementTab).click();
@@ -51,8 +53,7 @@ public class toolsqaElementPageTest extends locators
     public void validateElementScreen()
     {
         TCID="TC010";
-        result=elementPage.checkElementsScreenHeader();
-        ass.assertTrue(result);
+        ass.assertTrue(elementPage.checkElementsScreenHeader());
         ass.assertTrue(Xpath(driver,textbox).isDisplayed());
         ass.assertTrue(Xpath(driver,checkbox).isDisplayed());
         ass.assertTrue(Xpath(driver,radiobutton).isDisplayed());
@@ -82,8 +83,7 @@ public class toolsqaElementPageTest extends locators
         ass.assertTrue(elementPage.enterValidTextToEmailField(readWorkbook(excelPath,Email)));
         ass.assertTrue(elementPage.enterTextToCurrentAddressField(readWorkbook(excelPath,CAddress)));
         ass.assertTrue(elementPage.enterTextToPermanantAddressField(readWorkbook(excelPath,PAddress)));
-        result=elementPage.clickSubmitButton(driver);
-        ass.assertTrue(result);
+        ass.assertTrue(elementPage.clickSubmitButton(driver));
         ass.assertAll();
     }
 
@@ -94,8 +94,7 @@ public class toolsqaElementPageTest extends locators
         ass.assertTrue(elementPage.checkPresenceOfCheckBoxOption(driver));
         ass.assertTrue(elementPage.extractHeaderOfCheckBoxPage());
         ass.assertTrue(elementPage.clickToggleArrowOnCheckBoxPage());
-        result=elementPage.clickCheckBoxOnCheckBoxPage();
-        ass.assertTrue(result);
+        ass.assertTrue(elementPage.clickCheckBoxOnCheckBoxPage());
         ass.assertTrue(elementPage.clickExpandButtonOnCheckBoxPage());
         ass.assertTrue(elementPage.clickCollapseButtonOnCheckBoxPage());
         ass.assertAll();
@@ -106,23 +105,18 @@ public class toolsqaElementPageTest extends locators
     {
         TCID="TC013";
         ass.assertTrue(elementPage.checkPresenceOfRadioButtonOption(driver));
-        boolean yCheck=elementPage.clickYesRadioOnRadioButtonPage(driver);
-        ass.assertTrue(yCheck);
-        boolean iCheck=elementPage.clickImpressiveRadioOnRadioButtonPage(driver);
-        ass.assertTrue(iCheck);
-        boolean nCheck=elementPage.checkNoRadioOnRadioButtonPage();
-        ass.assertTrue(nCheck,"Button is disabled or not working");
-        result=yCheck & iCheck & nCheck;
+        ass.assertTrue(elementPage.clickYesRadioOnRadioButtonPage(driver));
+        ass.assertTrue(elementPage.clickImpressiveRadioOnRadioButtonPage(driver));
+        ass.assertFalse(elementPage.checkNoRadioOnRadioButtonPage(),"Button is disabled or not working");
         ass.assertAll();
     }
     @Test(dependsOnMethods = "validateElementScreen")
-    public void validateWebTablesOperations() throws InterruptedException {
+    public void validateWebTablesOperations() {
         TCID="TC014";
         ass.assertTrue(elementPage.checkPresenceOfWebTableOption(driver));
         ass.assertTrue(elementPage.clickAddButtonOnWebTablesPage());
         ass.assertTrue(elementPage.clickPreseceOfRegFormOnWebTablesPage());
-        result=elementPage.searchOnWebTablesPage(driver);
-        ass.assertTrue(result);
+        ass.assertTrue(elementPage.searchOnWebTablesPage(driver));
         ass.assertAll();
     }
     @Test(dependsOnMethods = "validateElementScreen")
@@ -132,8 +126,7 @@ public class toolsqaElementPageTest extends locators
         ass.assertTrue(elementPage.checkPresenceOfButtonsOption(driver));
         ass.assertTrue(elementPage.doubleClickButtonCheck(driver));
         ass.assertTrue(elementPage.rightClickButtonCheck(driver));
-        result=elementPage.singleClickButtonCheck(driver);
-        ass.assertTrue(result);
+        ass.assertTrue(elementPage.singleClickButtonCheck(driver));
         ass.assertAll();
     }
     @Test(dependsOnMethods = "validateElementScreen")
@@ -141,19 +134,18 @@ public class toolsqaElementPageTest extends locators
         TCID="TC016";
         ass.assertTrue(elementPage.checkPresenceOfLinkOption(driver));
         ass.assertTrue(elementPage.clickLinkToOpenNewTab(driver));
-        result=elementPage.clickApiLinkToCheckResponse();
-        ass.assertTrue(result);
+        ass.assertTrue(elementPage.clickApiLinkToCheckResponse());
         ass.assertAll();
     }
     @Test(dependsOnMethods = "validateElementScreen")
-    public void validateBrokenLinkImagesOperations() throws InterruptedException {
+    public void validateBrokenLinkImagesOperations() throws InterruptedException
+    {
         TCID="TC017";
         ass.assertTrue(elementPage.checkPresenceOfBrokenLinkImagesOption(driver));
         ass.assertTrue(elementPage.checkValidImage(),"Image is not Displayed");
         ass.assertTrue(elementPage.checkBrokenImage(driver),"Image is broken");
         ass.assertTrue(elementPage.checkValidLink(driver),"Link is not valid");
-        result=elementPage.checkBrokenLink(driver);
-        ass.assertTrue(result,"Link is broken");
+        ass.assertTrue(elementPage.checkBrokenLink(driver),"Link is broken");
         ass.assertAll();
     }
 
@@ -162,18 +154,16 @@ public class toolsqaElementPageTest extends locators
         TCID = "TC018";
         ass.assertTrue(elementPage.checkPresenceOfUploadDownloadOption(driver));
         ass.assertTrue(elementPage.clickDownloadButton(genPath),"Download button is not functional");
-        result=elementPage.clickUploadButton();
-        ass.assertTrue(result,"Upload button is not functional");
+        ass.assertTrue(elementPage.clickUploadButton(),"Upload button is not functional");
     }
 
     @Test(dependsOnMethods = "validateElementScreen")
-    public void validateDynamicButtonsOperations() throws InterruptedException, IOException {
+    public void validateDynamicButtonsOperations() throws InterruptedException{
         TCID = "TC019";
         ass.assertTrue(elementPage.checkPresenceOfDynamicPropertyOption(driver));
         ass.assertTrue(elementPage.checkOperationOfDynamicButtonBeforeTime(),"Incorrect button is shown");
         driver.navigate().refresh();
-        result=elementPage.checkOperationOfDynamicButtonAfterTime();
-        ass.assertTrue(result,"Button is expected to be shown");
+        ass.assertTrue(elementPage.checkOperationOfDynamicButtonAfterTime(),"Button is expected to be shown");
     }
 
     @AfterMethod
@@ -181,26 +171,32 @@ public class toolsqaElementPageTest extends locators
     {
         if(ITestResult.SUCCESS==result.getStatus())
         {
-            str="Test Case "+TCID+" is PASS";
+            str=TC+TCID+" is PASS";
             logs(str);
         }
         else if(ITestResult.FAILURE==result.getStatus())
         {
-            screenshot(TCID);
-            str="Test Case "+TCID+" is FAILED";
+            screenshot(driver,TCID);
+            str=TC+TCID+" is FAILED";
             logs(str);
         }
         else if(ITestResult.SKIP==result.getStatus())
         {
-            str="Test Case "+TCID+" is SKIPPED";
+            str=TC+TCID+" is SKIPPED";
             logs(str);
         }
     }
     @AfterClass
     public void testCleanUp()
     {
+        driver.close();
         driver.quit();
+    }
+    @AfterTest
+    public void releaseDriver()
+    {
         driver=null;
+        webdriver.remove();
     }
 
 }

@@ -14,21 +14,20 @@ import static com.cybage.assignment.objects.utilities.*;
 
 public class widgetsPageTest extends locators
 {
-    static String appPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\webAppGeneric.properties";
-    static String genPath="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
-    static widgetsPage widgetPage;
+    widgetsPage widgetPage;
     String TCID;
     String str;
+    static final String TC="Test Case ";
     SoftAssert ass;
-    WebDriver driver;
-    static ThreadLocal<WebDriver> dr;
+    private WebDriver driver;
+    private final ThreadLocal<WebDriver> webdriver = new ThreadLocal<>();
     @BeforeClass
     public void testSetUp() throws IOException
     {
-        dr= new ThreadLocal<>();
+
         initialize();
-        driver = browserFactory();
-        dr.set(driver);
+        webdriver.set(browserFactory());
+        driver = webdriver.get();
         driver.get(genericProp(appPath,"url"));
         driver.manage().window().maximize();
         implicitWaitSEC(driver,20);
@@ -103,25 +102,31 @@ public class widgetsPageTest extends locators
     {
         if(ITestResult.SUCCESS==result.getStatus())
         {
-            str="Test Case "+TCID+" is PASS";
+            str=TC+TCID+" is PASS";
             logs(str);
         }
         else if(ITestResult.FAILURE==result.getStatus())
         {
-            screenshot(TCID);
-            str="Test Case "+TCID+" is FAILED";
+            screenshot(driver,TCID);
+            str=TC+TCID+" is FAILED";
             logs(str);
         }
         else if(ITestResult.SKIP==result.getStatus())
         {
-            str="Test Case "+TCID+" is SKIPPED";
+            str=TC+TCID+" is SKIPPED";
             logs(str);
         }
     }
     @AfterClass
     public void testCleanUp()
     {
+        driver.close();
         driver.quit();
+    }
+    @AfterTest
+    public void releaseDriver()
+    {
         driver=null;
+        webdriver.remove();
     }
 }

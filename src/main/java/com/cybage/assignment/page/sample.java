@@ -11,6 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.List;
 
 import static com.cybage.assignment.objects.locators.*;
@@ -20,21 +22,14 @@ import static com.cybage.assignment.objects.utilities.*;
 
 public class sample
 {
-    static String path = "C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
-    static SoftAssert ass;
-    static widgetsPage widgetPage;
 
     public static void main(String[] args)
-            throws IOException, InterruptedException {
-        ass=new SoftAssert();
-        initialize();
-        WebDriver driver=browserFactory();
-        driver.get("https://demoqa.com/date-picker");
-        widgetPage=new widgetsPage(driver);
-
-      String str=widgetPage.selectDateTimeUsingDatePicker(driver,"25","May","1988","00:15");
-      System.out.println(str);
-      driver.quit();
+    {
+        LocalDateTime localDateTime = LocalDateTime.now();
+        String date=localDateTime.getMonthValue()+"_"+localDateTime.getDayOfWeek().getValue()+"_"+localDateTime.getYear();
+        System.out.println(date);
+        String time=localDateTime.getHour()+"_"+localDateTime.getMinute();
+        System.out.println(time);
      }
 
 }

@@ -1,135 +1,697 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
   <reporter-output>
   </reporter-output>
-  <suite name="HomePage" duration-ms="56780" started-at="2021-09-22T10:34:33Z" finished-at="2021-09-22T10:35:29Z">
+  <suite name="HomePage" duration-ms="97904" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:55:16Z">
     <groups>
     </groups>
-    <test name="toolsqaHomeTest" duration-ms="56780" started-at="2021-09-22T10:34:33Z" finished-at="2021-09-22T10:35:29Z">
-      <class name="com.cybage.assignment.test.alertFrameWindowPageTest">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="testSetUp" is-config="true" duration-ms="7484" started-at="2021-09-22T10:34:33Z" finished-at="2021-09-22T10:34:40Z">
+    <test name="toolsqaHomeTest" duration-ms="25423" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:54:04Z">
+      <class name="com.cybage.assignment.test.toolsqaHomePageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="testSetUp" is-config="true" duration-ms="19083" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3005" started-at="2021-09-22T10:34:40Z" finished-at="2021-09-22T10:34:43Z">
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="16" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitToLoadElements -->
-        <test-method status="PASS" signature="validatePresenceOfAlertFrameWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validatePresenceOfAlertFrameWindowOptions" duration-ms="285" started-at="2021-09-22T10:34:43Z" finished-at="2021-09-22T10:34:43Z">
+        <test-method status="PASS" signature="validateIfAlertTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validateIfAlertTabPresent" duration-ms="57" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePresenceOfAlertFrameWindowOptions -->
-        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="301" started-at="2021-09-22T10:34:43Z" finished-at="2021-09-22T10:34:44Z">
+        </test-method> <!-- validateIfAlertTabPresent -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validatePresenceOfAlertFrameWindowOptions status=SUCCESS method=alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+                <![CDATA[[TestResult name=validateIfAlertTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfAlertTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureAndReport -->
-        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3001" started-at="2021-09-22T10:34:44Z" finished-at="2021-09-22T10:34:47Z">
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="4" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitToLoadElements -->
-        <test-method status="PASS" signature="validateAlertsOption()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateAlertsOption" duration-ms="18257" started-at="2021-09-22T10:34:47Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:05Z">
+        <test-method status="PASS" signature="validateIfBookStoreTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validateIfBookStoreTabPresent" duration-ms="41" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAlertsOption -->
-        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-22T10:35:05Z" finished-at="2021-09-22T10:35:05Z">
+        </test-method> <!-- validateIfBookStoreTabPresent -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateAlertsOption status=SUCCESS method=alertFrameWindowPageTest.validateAlertsOption()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+                <![CDATA[[TestResult name=validateIfBookStoreTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfBookStoreTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureAndReport -->
-        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3005" started-at="2021-09-22T10:35:05Z" finished-at="2021-09-22T10:35:08Z">
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="17" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitToLoadElements -->
-        <test-method status="PASS" signature="validateBrowserWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateBrowserWindowOptions" duration-ms="5295" started-at="2021-09-22T10:35:08Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:13Z">
+        <test-method status="PASS" signature="validateIfElementsTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validateIfElementsTabPresent" duration-ms="54" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateBrowserWindowOptions -->
-        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-22T10:35:13Z" finished-at="2021-09-22T10:35:13Z">
+        </test-method> <!-- validateIfElementsTabPresent -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateBrowserWindowOptions status=SUCCESS method=alertFrameWindowPageTest.validateBrowserWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+                <![CDATA[[TestResult name=validateIfElementsTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfElementsTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureAndReport -->
-        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3011" started-at="2021-09-22T10:35:13Z" finished-at="2021-09-22T10:35:16Z">
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="9" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitToLoadElements -->
-        <test-method status="PASS" signature="validateIFrameOperations()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateIFrameOperations" duration-ms="4435" started-at="2021-09-22T10:35:16Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:21Z">
+        <test-method status="PASS" signature="validateIfFormsTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validateIfFormsTabPresent" duration-ms="39" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateIFrameOperations -->
-        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="0" started-at="2021-09-22T10:35:21Z" finished-at="2021-09-22T10:35:21Z">
+        </test-method> <!-- validateIfFormsTabPresent -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateIFrameOperations status=SUCCESS method=alertFrameWindowPageTest.validateIFrameOperations()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+                <![CDATA[[TestResult name=validateIfFormsTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfFormsTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureAndReport -->
-        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3002" started-at="2021-09-22T10:35:21Z" finished-at="2021-09-22T10:35:24Z">
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="10" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitToLoadElements -->
-        <test-method status="PASS" signature="validateModalDialogsOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateModalDialogsOperation" duration-ms="1527" started-at="2021-09-22T10:35:24Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:25Z">
+        <test-method status="PASS" signature="validateIfInteractionsTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validateIfInteractionsTabPresent" duration-ms="78" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateModalDialogsOperation -->
-        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-22T10:35:25Z" finished-at="2021-09-22T10:35:25Z">
+        </test-method> <!-- validateIfInteractionsTabPresent -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="0" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateModalDialogsOperation status=SUCCESS method=alertFrameWindowPageTest.validateModalDialogsOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+                <![CDATA[[TestResult name=validateIfInteractionsTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfInteractionsTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureAndReport -->
-        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="waitToLoadElements" is-config="true" duration-ms="3007" started-at="2021-09-22T10:35:25Z" finished-at="2021-09-22T10:35:28Z">
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="15" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitToLoadElements -->
-        <test-method status="PASS" signature="validateNestedFramesOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="validateNestedFramesOperation" duration-ms="413" started-at="2021-09-22T10:35:28Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-22T10:35:29Z">
+        <test-method status="PASS" signature="validateIfLogoPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validateIfLogoPresent" duration-ms="67" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateNestedFramesOperation -->
-        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-22T10:35:29Z" finished-at="2021-09-22T10:35:29Z">
+        </test-method> <!-- validateIfLogoPresent -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateNestedFramesOperation status=SUCCESS method=alertFrameWindowPageTest.validateNestedFramesOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024] output={null}]]]>
+                <![CDATA[[TestResult name=validateIfLogoPresent status=SUCCESS method=toolsqaHomePageTest.validateIfLogoPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureAndReport -->
-        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1c73024]" name="testCleanUp" is-config="true" duration-ms="735" started-at="2021-09-22T10:35:29Z" finished-at="2021-09-22T10:35:29Z">
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="17" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateIfWidgetTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validateIfWidgetTabPresent" duration-ms="37" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfWidgetTabPresent -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateIfWidgetTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfWidgetTabPresent()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="7" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validatePageBanner()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validatePageBanner" duration-ms="37" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageBanner -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePageBanner status=SUCCESS method=toolsqaHomePageTest.validatePageBanner()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="waitToLoadElements" is-config="true" duration-ms="6" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="validatePageTitle" duration-ms="3" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="captureAndReport" is-config="true" duration-ms="1" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePageTitle status=SUCCESS method=toolsqaHomePageTest.validatePageTitle()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="testCleanUp" is-config="true" duration-ms="5783" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:54:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
-      </class> <!-- com.cybage.assignment.test.alertFrameWindowPageTest -->
+        <test-method status="PASS" signature="releaseDriver()[pri:0, instance:com.cybage.assignment.test.toolsqaHomePageTest@1dcbbbc]" name="releaseDriver" is-config="true" duration-ms="0" started-at="2021-09-30T04:54:04Z" finished-at="2021-09-30T04:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseDriver -->
+      </class> <!-- com.cybage.assignment.test.toolsqaHomePageTest -->
     </test> <!-- toolsqaHomeTest -->
+    <test name="toolsqaFormTest" duration-ms="39395" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:54:18Z">
+      <class name="com.cybage.assignment.test.toolsqaFormPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="testSetUp" is-config="true" duration-ms="13127" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="waitToLoadElements" is-config="true" duration-ms="3007" started-at="2021-09-30T04:53:51Z" finished-at="2021-09-30T04:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validatePracticeFormOption()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="validatePracticeFormOption" duration-ms="724" started-at="2021-09-30T04:53:54Z" finished-at="2021-09-30T04:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePracticeFormOption -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="captureAndReport" is-config="true" duration-ms="37" started-at="2021-09-30T04:53:55Z" finished-at="2021-09-30T04:53:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePracticeFormOption status=SUCCESS method=toolsqaFormPageTest.validatePracticeFormOption()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="waitToLoadElements" is-config="true" duration-ms="3004" started-at="2021-09-30T04:53:55Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateFormFilling()[pri:1, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="validateFormFilling" duration-ms="11286" started-at="2021-09-30T04:53:58Z" depends-on-methods="com.cybage.assignment.test.toolsqaFormPageTest.validatePracticeFormOption" finished-at="2021-09-30T04:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFormFilling -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-30T04:54:09Z" finished-at="2021-09-30T04:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFormFilling status=SUCCESS method=toolsqaFormPageTest.validateFormFilling()[pri:1, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="waitToLoadElements" is-config="true" duration-ms="3012" started-at="2021-09-30T04:54:09Z" finished-at="2021-09-30T04:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateFormAfterSubmit()[pri:2, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="validateFormAfterSubmit" duration-ms="385" started-at="2021-09-30T04:54:12Z" depends-on-methods="com.cybage.assignment.test.toolsqaFormPageTest.validatePracticeFormOption" finished-at="2021-09-30T04:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFormAfterSubmit -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:13Z" finished-at="2021-09-30T04:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFormAfterSubmit status=SUCCESS method=toolsqaFormPageTest.validateFormAfterSubmit()[pri:2, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="testCleanUp" is-config="true" duration-ms="4791" started-at="2021-09-30T04:54:13Z" finished-at="2021-09-30T04:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="releaseDriver()[pri:0, instance:com.cybage.assignment.test.toolsqaFormPageTest@6fd19b]" name="releaseDriver" is-config="true" duration-ms="0" started-at="2021-09-30T04:54:18Z" finished-at="2021-09-30T04:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseDriver -->
+      </class> <!-- com.cybage.assignment.test.toolsqaFormPageTest -->
+    </test> <!-- toolsqaFormTest -->
+    <test name="toolsqaWidgetTest" duration-ms="46076" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:54:24Z">
+      <class name="com.cybage.assignment.test.widgetsPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="testSetUp" is-config="true" duration-ms="16029" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="waitToLoadElements" is-config="true" duration-ms="3004" started-at="2021-09-30T04:53:54Z" finished-at="2021-09-30T04:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validatePresenceOfWidgetOptions()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="validatePresenceOfWidgetOptions" duration-ms="542" started-at="2021-09-30T04:53:57Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePresenceOfWidgetOptions -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePresenceOfWidgetOptions status=SUCCESS method=widgetsPageTest.validatePresenceOfWidgetOptions()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="waitToLoadElements" is-config="true" duration-ms="3009" started-at="2021-09-30T04:53:58Z" finished-at="2021-09-30T04:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateAccordianPageOperations()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="validateAccordianPageOperations" duration-ms="3528" started-at="2021-09-30T04:54:01Z" depends-on-methods="com.cybage.assignment.test.widgetsPageTest.validatePresenceOfWidgetOptions" finished-at="2021-09-30T04:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAccordianPageOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:04Z" finished-at="2021-09-30T04:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAccordianPageOperations status=SUCCESS method=widgetsPageTest.validateAccordianPageOperations()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="waitToLoadElements" is-config="true" duration-ms="3004" started-at="2021-09-30T04:54:04Z" finished-at="2021-09-30T04:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateAutoCompleteTextBoxes()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="validateAutoCompleteTextBoxes" duration-ms="4273" started-at="2021-09-30T04:54:07Z" depends-on-methods="com.cybage.assignment.test.widgetsPageTest.validatePresenceOfWidgetOptions" finished-at="2021-09-30T04:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAutoCompleteTextBoxes -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:12Z" finished-at="2021-09-30T04:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAutoCompleteTextBoxes status=SUCCESS method=widgetsPageTest.validateAutoCompleteTextBoxes()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="waitToLoadElements" is-config="true" duration-ms="3009" started-at="2021-09-30T04:54:12Z" finished-at="2021-09-30T04:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateDatePickerOperation()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="validateDatePickerOperation" duration-ms="4600" started-at="2021-09-30T04:54:15Z" depends-on-methods="com.cybage.assignment.test.widgetsPageTest.validatePresenceOfWidgetOptions" finished-at="2021-09-30T04:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatePickerOperation -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:19Z" finished-at="2021-09-30T04:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDatePickerOperation status=SUCCESS method=widgetsPageTest.validateDatePickerOperation()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="testCleanUp" is-config="true" duration-ms="5058" started-at="2021-09-30T04:54:19Z" finished-at="2021-09-30T04:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="releaseDriver()[pri:0, instance:com.cybage.assignment.test.widgetsPageTest@1a7af06]" name="releaseDriver" is-config="true" duration-ms="0" started-at="2021-09-30T04:54:24Z" finished-at="2021-09-30T04:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseDriver -->
+      </class> <!-- com.cybage.assignment.test.widgetsPageTest -->
+    </test> <!-- toolsqaWidgetTest -->
+    <test name="toolsqaWindowTest" duration-ms="66754" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:54:45Z">
+      <class name="com.cybage.assignment.test.alertFrameWindowPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="testSetUp" is-config="true" duration-ms="15029" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="waitToLoadElements" is-config="true" duration-ms="3012" started-at="2021-09-30T04:53:53Z" finished-at="2021-09-30T04:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validatePresenceOfAlertFrameWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="validatePresenceOfAlertFrameWindowOptions" duration-ms="248" started-at="2021-09-30T04:53:56Z" finished-at="2021-09-30T04:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePresenceOfAlertFrameWindowOptions -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:53:56Z" finished-at="2021-09-30T04:53:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePresenceOfAlertFrameWindowOptions status=SUCCESS method=alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="waitToLoadElements" is-config="true" duration-ms="3001" started-at="2021-09-30T04:53:56Z" finished-at="2021-09-30T04:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateAlertsOption()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="validateAlertsOption" duration-ms="18253" started-at="2021-09-30T04:53:59Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-30T04:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAlertsOption -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-30T04:54:18Z" finished-at="2021-09-30T04:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAlertsOption status=SUCCESS method=alertFrameWindowPageTest.validateAlertsOption()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="waitToLoadElements" is-config="true" duration-ms="3015" started-at="2021-09-30T04:54:18Z" finished-at="2021-09-30T04:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateBrowserWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="validateBrowserWindowOptions" duration-ms="4758" started-at="2021-09-30T04:54:21Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-30T04:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrowserWindowOptions -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:26Z" finished-at="2021-09-30T04:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBrowserWindowOptions status=SUCCESS method=alertFrameWindowPageTest.validateBrowserWindowOptions()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="waitToLoadElements" is-config="true" duration-ms="3007" started-at="2021-09-30T04:54:26Z" finished-at="2021-09-30T04:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateIFrameOperations()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="validateIFrameOperations" duration-ms="4406" started-at="2021-09-30T04:54:29Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-30T04:54:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIFrameOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:33Z" finished-at="2021-09-30T04:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateIFrameOperations status=SUCCESS method=alertFrameWindowPageTest.validateIFrameOperations()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="waitToLoadElements" is-config="true" duration-ms="3001" started-at="2021-09-30T04:54:33Z" finished-at="2021-09-30T04:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateModalDialogsOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="validateModalDialogsOperation" duration-ms="656" started-at="2021-09-30T04:54:36Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-30T04:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateModalDialogsOperation -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-30T04:54:37Z" finished-at="2021-09-30T04:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateModalDialogsOperation status=SUCCESS method=alertFrameWindowPageTest.validateModalDialogsOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="waitToLoadElements" is-config="true" duration-ms="3006" started-at="2021-09-30T04:54:37Z" finished-at="2021-09-30T04:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateNestedFramesOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="validateNestedFramesOperation" duration-ms="384" started-at="2021-09-30T04:54:40Z" depends-on-methods="com.cybage.assignment.test.alertFrameWindowPageTest.validatePresenceOfAlertFrameWindowOptions" finished-at="2021-09-30T04:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNestedFramesOperation -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:40Z" finished-at="2021-09-30T04:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNestedFramesOperation status=SUCCESS method=alertFrameWindowPageTest.validateNestedFramesOperation()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="testCleanUp" is-config="true" duration-ms="4955" started-at="2021-09-30T04:54:40Z" finished-at="2021-09-30T04:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="releaseDriver()[pri:0, instance:com.cybage.assignment.test.alertFrameWindowPageTest@1954300]" name="releaseDriver" is-config="true" duration-ms="0" started-at="2021-09-30T04:54:45Z" finished-at="2021-09-30T04:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseDriver -->
+      </class> <!-- com.cybage.assignment.test.alertFrameWindowPageTest -->
+    </test> <!-- toolsqaWindowTest -->
+    <test name="toolsqaElementTest" duration-ms="97904" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:55:16Z">
+      <class name="com.cybage.assignment.test.toolsqaElementPageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="testSetUp" is-config="true" duration-ms="13536" started-at="2021-09-30T04:53:38Z" finished-at="2021-09-30T04:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3007" started-at="2021-09-30T04:53:52Z" finished-at="2021-09-30T04:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateElementScreen()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateElementScreen" duration-ms="731" started-at="2021-09-30T04:53:55Z" finished-at="2021-09-30T04:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateElementScreen -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-30T04:53:55Z" finished-at="2021-09-30T04:53:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateElementScreen status=SUCCESS method=toolsqaElementPageTest.validateElementScreen()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3015" started-at="2021-09-30T04:53:55Z" finished-at="2021-09-30T04:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateBrokenLinkImagesOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateBrokenLinkImagesOperations" duration-ms="9590" started-at="2021-09-30T04:53:58Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBrokenLinkImagesOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:08Z" finished-at="2021-09-30T04:54:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateBrokenLinkImagesOperations status=SUCCESS method=toolsqaElementPageTest.validateBrokenLinkImagesOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3012" started-at="2021-09-30T04:54:08Z" finished-at="2021-09-30T04:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateButtonsOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateButtonsOperations" duration-ms="658" started-at="2021-09-30T04:54:11Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateButtonsOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:12Z" finished-at="2021-09-30T04:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateButtonsOperations status=SUCCESS method=toolsqaElementPageTest.validateButtonsOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3002" started-at="2021-09-30T04:54:12Z" finished-at="2021-09-30T04:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateCheckBoxOperation()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateCheckBoxOperation" duration-ms="480" started-at="2021-09-30T04:54:15Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckBoxOperation -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:15Z" finished-at="2021-09-30T04:54:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCheckBoxOperation status=SUCCESS method=toolsqaElementPageTest.validateCheckBoxOperation()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3007" started-at="2021-09-30T04:54:15Z" finished-at="2021-09-30T04:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateDynamicButtonsOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateDynamicButtonsOperations" duration-ms="11157" started-at="2021-09-30T04:54:18Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDynamicButtonsOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:29Z" finished-at="2021-09-30T04:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDynamicButtonsOperations status=SUCCESS method=toolsqaElementPageTest.validateDynamicButtonsOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3004" started-at="2021-09-30T04:54:29Z" finished-at="2021-09-30T04:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateLinksOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateLinksOperations" duration-ms="2566" started-at="2021-09-30T04:54:32Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinksOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-30T04:54:35Z" finished-at="2021-09-30T04:54:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLinksOperations status=SUCCESS method=toolsqaElementPageTest.validateLinksOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3000" started-at="2021-09-30T04:54:35Z" finished-at="2021-09-30T04:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateRadioButtonOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateRadioButtonOperations" duration-ms="564" started-at="2021-09-30T04:54:38Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRadioButtonOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:39Z" finished-at="2021-09-30T04:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRadioButtonOperations status=SUCCESS method=toolsqaElementPageTest.validateRadioButtonOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3005" started-at="2021-09-30T04:54:39Z" finished-at="2021-09-30T04:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateTextBoxOnSubmission()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateTextBoxOnSubmission" duration-ms="790" started-at="2021-09-30T04:54:42Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTextBoxOnSubmission -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="3" started-at="2021-09-30T04:54:42Z" finished-at="2021-09-30T04:54:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTextBoxOnSubmission status=SUCCESS method=toolsqaElementPageTest.validateTextBoxOnSubmission()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3002" started-at="2021-09-30T04:54:42Z" finished-at="2021-09-30T04:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateUploadDownloadOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateUploadDownloadOperations" duration-ms="2387" started-at="2021-09-30T04:54:45Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUploadDownloadOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:54:48Z" finished-at="2021-09-30T04:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUploadDownloadOperations status=SUCCESS method=toolsqaElementPageTest.validateUploadDownloadOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="waitToLoadElements()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="waitToLoadElements" is-config="true" duration-ms="3010" started-at="2021-09-30T04:54:48Z" finished-at="2021-09-30T04:54:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitToLoadElements -->
+        <test-method status="PASS" signature="validateWebTablesOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="validateWebTablesOperations" duration-ms="20535" started-at="2021-09-30T04:54:51Z" depends-on-methods="com.cybage.assignment.test.toolsqaElementPageTest.validateElementScreen" finished-at="2021-09-30T04:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWebTablesOperations -->
+        <test-method status="PASS" signature="captureAndReport(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="captureAndReport" is-config="true" duration-ms="2" started-at="2021-09-30T04:55:11Z" finished-at="2021-09-30T04:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateWebTablesOperations status=SUCCESS method=toolsqaElementPageTest.validateWebTablesOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureAndReport -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="testCleanUp" is-config="true" duration-ms="4808" started-at="2021-09-30T04:55:11Z" finished-at="2021-09-30T04:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="releaseDriver()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@b01718]" name="releaseDriver" is-config="true" duration-ms="0" started-at="2021-09-30T04:55:16Z" finished-at="2021-09-30T04:55:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseDriver -->
+      </class> <!-- com.cybage.assignment.test.toolsqaElementPageTest -->
+    </test> <!-- toolsqaElementTest -->
   </suite> <!-- HomePage -->
 </testng-results>

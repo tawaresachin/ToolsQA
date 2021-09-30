@@ -1,12 +1,29 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="HomePage" verbose="1" >
-    <test name="toolsqaHomeTest" >
+<suite name="HomePage" parallel="tests" thread-count="10" group-by-instances="true">
+    <test name="toolsqaHomeTest" preserve-order="true">
         <classes>
-            <!-- <class name="com.cybage.assignment.test.toolsqaHomePageTest" -->
-           <!-- <class name="com.cybage.assignment.test.toolsqaElementPageTest" -->
-           <!-- <class name="com.cybage.assignment.test.toolsqaFormPageTest"/ -->
+           <class name="com.cybage.assignment.test.toolsqaHomePageTest"/>
+        </classes>
+    </test>
+    <test name="toolsqaElementTest" preserve-order="true" >
+        <classes>
+            <class name="com.cybage.assignment.test.toolsqaElementPageTest"/>
+        </classes>
+    </test>
+    <test name="toolsqaFormTest" preserve-order="true">
+        <classes>
+            <class name="com.cybage.assignment.test.toolsqaFormPageTest"/>
+        </classes>
+    </test>
+    <test name="toolsqaWindowTest" preserve-order="true" >
+        <classes>
             <class name="com.cybage.assignment.test.alertFrameWindowPageTest"/>
+        </classes>
+    </test>
+    <test name="toolsqaWidgetTest" preserve-order="true">
+        <classes>
+            <class name="com.cybage.assignment.test.widgetsPageTest"/>
         </classes>
     </test>
 </suite>

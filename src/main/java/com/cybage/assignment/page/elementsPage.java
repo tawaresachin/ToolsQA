@@ -14,10 +14,10 @@ import static com.cybage.assignment.objects.utilities.*;
 
 public class elementsPage extends locators
 {
-    static boolean status;
+    boolean status;
     String str,xPath;
     boolean flag1,flag2,flag3;
-    static int oddSize,evenSize;
+    int oddSize,evenSize;
     List<WebElement> ele;
 
     @FindBy(xpath=textbox) private WebElement textBox;
@@ -113,9 +113,9 @@ public class elementsPage extends locators
     public boolean extractLabelOfTextBoxes()
     {
         status=fullnameLabel.getText().equals("Full Name")
-                & emailabel.getText().equals("Email")
-                & currAddressLabel.getText().equals("Current Address")
-                & perAddressLabel.getText().equals("Permanent Address");
+                && emailabel.getText().equals("Email")
+                && currAddressLabel.getText().equals("Current Address")
+                && perAddressLabel.getText().equals("Permanent Address");
         return status;
     }
 
@@ -132,18 +132,6 @@ public class elementsPage extends locators
     }
 
     public boolean enterValidTextToEmailField(String email)
-    {
-        status=emailText.isEnabled();
-        if( status)
-        {
-            emailText.sendKeys(email);
-            return status;
-        }
-        else
-            return false;
-    }
-
-    public  boolean enterInvalidTextToEmailField(String email)
     {
         status=emailText.isEnabled();
         if( status)
@@ -184,7 +172,7 @@ public class elementsPage extends locators
         if(submit.isEnabled())
         {
             submit.click();
-            List<WebElement> ele=driver.findElements(By.xpath(outputList));
+            ele=driver.findElements(By.xpath(outputList));
             return (ele.size()==4);
         }
         else
@@ -313,7 +301,7 @@ public class elementsPage extends locators
                 xPath = "(" + oddRowList + ")" + "["+i+"]" + cellData;
                 ele = driver.findElements(By.xpath(xPath));
                 for (int j = 0; j < ele.size(); j++) {
-                        flag2 = flag2|ele.get(j).getText().contains(strr);
+                        flag2 = flag2||ele.get(j).getText().contains(strr);
                  }
             }
         }
@@ -324,13 +312,13 @@ public class elementsPage extends locators
                 xPath = "(" + evenRowList + ")" + "["+i+"]" + cellData;
                 ele = driver.findElements(By.xpath(xPath));
                 for (int j = 0; j < ele.size(); j++) {
-                    flag3 = flag3|ele.get(j).getText().contains(strr);
+                    flag3 = flag3||ele.get(j).getText().contains(strr);
                 }
             }
         }
 
         if(flag1) {
-            status = (flag2 | flag3);
+            status = (flag2 || flag3);
             return status;
         }
         else
@@ -428,11 +416,11 @@ public class elementsPage extends locators
        return false;
     }
 
-    public boolean checkBrokenLink(WebDriver driver)
-    {
+    public boolean checkBrokenLink(WebDriver driver) throws InterruptedException {
         scrollIntoView(driver,brkLink);
         status=brkLink.isDisplayed();
         brkLink.click();
+        waitToBrowserMSEC(2000);
         driver.navigate().back();
         return status;
     }
@@ -477,7 +465,7 @@ public class elementsPage extends locators
     {
         if(!enableAfter.isEnabled())
         {
-            return(beforeColorChange.isDisplayed()&(!visibleAfter.isDisplayed()));
+            return(beforeColorChange.isDisplayed()&&(!visibleAfter.isDisplayed()));
         }
         else return false;
     }
@@ -486,7 +474,7 @@ public class elementsPage extends locators
         if(!enableAfter.isEnabled())
         {
             waitToBrowserMSEC(5000);
-            return(afterColorChange.isDisplayed()&(visibleAfter.isDisplayed()));
+            return(afterColorChange.isDisplayed()&&(visibleAfter.isDisplayed()));
         }
         else return false;
     }
