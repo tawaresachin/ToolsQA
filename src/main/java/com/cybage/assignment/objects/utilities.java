@@ -19,38 +19,50 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class utilities extends toolsqaBase
 {
     static File source;
     static File dest;
+    static File directory;
     static Sheet sheet;
     static Cell field;
     static Logger logger;
     static Actions act;
-    static WebDriverWait wait;
     static File dir;
     static DecimalFormat convert;
     static JavascriptExecutor js;
     static Iterator<String> iterator;
     static ArrayList<String> window;
     static Select select;
+    static WebDriverWait wait;
     static LocalDateTime localDateTime;
+    static String date;
+    static SimpleDateFormat formatTime;
+    static String time;
     static Alert alerts;
     static Workbook workbook;
     static boolean flag = true;
     static String st;
     static WebDriver.TargetLocator switchingTo;
+    static Properties prop;
 
-    public static void screenshot(String TCID) throws IOException                                    //Generic Screenshot utility
+    public static void screenshot(WebDriver driver,String TCID) throws IOException                                    //Generic Screenshot utility
     {
-       localDateTime=LocalDateTime.now();
+       localDateTime= LocalDateTime.now();
+       date=localDateTime.getMonthValue()+"_"+localDateTime.getDayOfWeek().getValue()+"_"+localDateTime.getYear();
+       time=localDateTime.getHour()+"."+localDateTime.getMinute();
+       directory = new File(genericProp(genPath,"screenshot")+date);
+        if (! directory.exists())
+        {
+            directory.mkdir();
+        }
        source =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-       dest=new File(genericProp(path,"screenshot")+TCID+".jpeg");
+       dest=new File(genericProp(genPath,"screenshot")+date+"\\"+TCID+"_"+time+".jpeg");
        FileHandler.copy(source,dest);
     }
 
@@ -93,7 +105,7 @@ public class utilities extends toolsqaBase
         try {
             FileInputStream file=null;
             logger = Logger.getLogger(utilities.class);
-            file = new FileInputStream(genericProp(path, "log4jFilePath"));
+            file = new FileInputStream(genericProp(genPath, "log4jFilePath"));
             PropertyConfigurator.configure(file);
             logger.info(str);
              }
@@ -120,6 +132,14 @@ public class utilities extends toolsqaBase
         return(driver.findElements(By.xpath(locator)));
     }
 
+    public static void pageReadyWait(WebDriver driver)
+    {
+       wait=new WebDriverWait(driver,20);
+       wait.until(webDriver
+                -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState")
+                    .equals("complete"));
+    }
+
     public static void waitToBrowserMSEC(int time) throws InterruptedException                       //System wait
     {
         Thread.sleep(time);
@@ -127,11 +147,12 @@ public class utilities extends toolsqaBase
     public static Boolean waitForElementVisibilitySEC(WebDriver driver,WebElement element)                            //Wait until element is visible
     {
         wait=new WebDriverWait(driver,20);
-        return(wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed());
+        boolean displayed = wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed();
+        return displayed;
     }
     public static boolean waitForElementToBeClickableSEC(WebDriver driver,WebElement element)                            //Wait until element is clickable
     {
-        WebDriverWait wait=new WebDriverWait(driver,20);
+        wait=new WebDriverWait(driver,20);
         return(wait.until(ExpectedConditions.elementToBeClickable(element)).isEnabled());
     }
     public static void implicitWaitSEC(WebDriver driver,int time)                                                     //Wait to load web-elements
@@ -212,6 +233,14 @@ public class utilities extends toolsqaBase
     {
         switchingTo = driver.switchTo();
         return switchingTo;
+    }
+
+    public static String genericProp(String path, String param) throws IOException       //Generic method to read properties file
+    {
+        file=new FileInputStream(path);
+        prop=new Properties();
+        prop.load(file);
+        return (prop.getProperty(param));
     }
 
 }

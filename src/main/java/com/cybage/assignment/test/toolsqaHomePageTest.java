@@ -5,24 +5,28 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import java.io.IOException;
+
+import static com.cybage.assignment.objects.toolsqaBase.browserFactory;
 import static com.cybage.assignment.objects.utilities.*;
 
 
 public class toolsqaHomePageTest
 {
-    static String path="C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\webAppGeneric.properties";
     toolsqaHomePage homePage;
-    static Boolean result;
+    boolean result;
     String TCID;
     String str;
-    static WebDriver driver;
+    static final String TC="Test Case ";
+    private WebDriver driver;
+    private final ThreadLocal<WebDriver> webdriver = new ThreadLocal<>();
 
     @BeforeClass
     public void testSetUp() throws IOException, InterruptedException
     {
         initialize();
-        driver = browserFactory();
-        driver.get(genericProp(path,"url"));
+        webdriver.set(browserFactory());
+        driver=webdriver.get();
+        driver.get(genericProp(appPath,"url"));
         driver.manage().window().maximize();
         waitToBrowserMSEC(2000);
         homePage=new toolsqaHomePage(driver);
@@ -109,25 +113,31 @@ public class toolsqaHomePageTest
     {
         if(ITestResult.SUCCESS==result.getStatus())
         {
-            str="Test Case "+TCID+" is PASS";
+            str=TC+TCID+" is PASS";
             logs(str);
         }
         else if(ITestResult.FAILURE==result.getStatus())
         {
-            screenshot(TCID);
-            str="Test Case "+TCID+" is FAILED";
+            screenshot(driver,TCID);
+            str=TC+TCID+" is FAILED";
             logs(str);
         }
         else if(ITestResult.SKIP==result.getStatus())
         {
-            str="Test Case "+TCID+" is SKIPPED";
+            str=TC+TCID+" is SKIPPED";
             logs(str);
         }
     }
     @AfterClass
     public void testCleanUp()
     {
+        driver.close();
         driver.quit();
+    }
+    @AfterTest
+    public void releaseDriver()
+    {
         driver=null;
+        webdriver.remove();
     }
 }
