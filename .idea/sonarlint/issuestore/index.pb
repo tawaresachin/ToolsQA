@@ -1,6 +1,4 @@
 
-d
-4src/main/resources/testData/webAppGeneric.properties,c\4\c4f58d76522d5e8dfc085332f7f3bf057b331a5f
 g
 7src/main/java/com/cybage/assignment/page/formsPage.java,3\b\3b7994b9d7fb5b4e66313d18edc4574c605c0586
 n
@@ -19,14 +17,8 @@ j
 :src/main/java/com/cybage/assignment/page/elementsPage.java,4\8\4811997076b55bd01f23d77fac2c540e5430cbff
 s
 Csrc/main/java/com/cybage/assignment/page/alertsFrameWindowPage.java,c\f\cfae1d981fc773e385566575af594fdd800dbe67
-l
-<src/main/java/com/cybage/assignment/objects/toolsqaBase.java,9\6\961d111a49c96b71aba86ad898d105e0840aec8a
 d
 4src/main/java/com/cybage/assignment/page/sample.java,7\9\7994424490323d057c0ef3f18da61a9d7de98c11
-q
-Asrc/main/java/com/cybage/assignment/test/toolsqaHomePageTest.java,9\3\93830083bd5323c743b039b1afd5bfad185ffd52
-q
-Asrc/main/java/com/cybage/assignment/test/toolsqaFormPageTest.java,4\b\4b31bbf1bb3d0bbeb782a4733d8b2c8a07745fe1
 m
 =src/main/java/com/cybage/assignment/test/widgetsPageTest.java,d\4\d4e077e252cc133915d7c83637d61fd7a8496361
 j

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DemoQATest]" parallel="tests">
+  <listeners>
+    <listener class-name="com.cybage.assignment.objects.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="10" verbose="0" name="toolsqaWidgetTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.cybage.assignment.test.widgetsPageTest">
+        <methods>
+          <include name="validateAutoCompleteTextBoxes"/>
+          <include name="validatePresenceOfWidgetOptions"/>
+          <include name="releaseDriver"/>
+          <include name="validateDatePickerOperation"/>
+          <include name="waitToLoadElements"/>
+          <include name="testCleanUp"/>
+          <include name="testSetUp"/>
+          <include name="captureAndReport"/>
+        </methods>
+      </class> <!-- com.cybage.assignment.test.widgetsPageTest -->
+    </classes>
+  </test> <!-- toolsqaWidgetTest(failed) -->
+</suite> <!-- Failed suite [DemoQATest] -->

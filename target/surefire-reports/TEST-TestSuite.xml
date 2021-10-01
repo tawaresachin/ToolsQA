@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="99.712" tests="32" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="108.129" tests="38" errors="0" skipped="6" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -67,36 +67,88 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="validatePracticeFormOption" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.32"/>
-  <testcase name="validateElementScreen" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.731"/>
-  <testcase name="validatePresenceOfAlertFrameWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.248"/>
-  <testcase name="validateIfAlertTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.057"/>
-  <testcase name="validateIfBookStoreTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.041"/>
-  <testcase name="validateIfElementsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.053"/>
-  <testcase name="validateIfFormsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.039"/>
-  <testcase name="validateIfInteractionsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.078"/>
-  <testcase name="validateIfLogoPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.067"/>
-  <testcase name="validateIfWidgetTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.037"/>
-  <testcase name="validatePresenceOfWidgetOptions" classname="com.cybage.assignment.test.widgetsPageTest" time="0.042"/>
-  <testcase name="validatePageBanner" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.037"/>
-  <testcase name="validatePageTitle" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.004"/>
-  <testcase name="validateAccordianPageOperations" classname="com.cybage.assignment.test.widgetsPageTest" time="3.528"/>
-  <testcase name="validateBrokenLinkImagesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.763"/>
-  <testcase name="validateFormFilling" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="2.072"/>
-  <testcase name="validateAutoCompleteTextBoxes" classname="com.cybage.assignment.test.widgetsPageTest" time="0.495"/>
-  <testcase name="validateButtonsOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.658"/>
-  <testcase name="validateFormAfterSubmit" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.385"/>
-  <testcase name="validateCheckBoxOperation" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.48"/>
-  <testcase name="validateAlertsOption" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="2.983"/>
-  <testcase name="validateDatePickerOperation" classname="com.cybage.assignment.test.widgetsPageTest" time="0.954"/>
-  <testcase name="validateBrowserWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="4.758"/>
-  <testcase name="validateDynamicButtonsOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.879"/>
-  <testcase name="validateIFrameOperations" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.52"/>
-  <testcase name="validateLinksOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="2.566"/>
-  <testcase name="validateModalDialogsOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.656"/>
-  <testcase name="validateRadioButtonOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.564"/>
-  <testcase name="validateNestedFramesOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.384"/>
-  <testcase name="validateTextBoxOnSubmission" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.79"/>
-  <testcase name="validateUploadDownloadOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="2.387"/>
-  <testcase name="validateWebTablesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="20.535"/>
+  <testcase name="validateIfAlertTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.056"/>
+  <testcase name="validateIfBookStoreTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.049"/>
+  <testcase name="validateIfElementsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.067"/>
+  <testcase name="validateIfFormsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.038"/>
+  <testcase name="validateIfInteractionsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.054"/>
+  <testcase name="validateIfLogoPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.035"/>
+  <testcase name="validateIfWidgetTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.036"/>
+  <testcase name="validatePageBanner" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.036"/>
+  <testcase name="validatePageTitle" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.003"/>
+  <testcase name="validateElementScreen" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.058"/>
+  <testcase name="validatePresenceOfWidgetOptions" classname="com.cybage.assignment.test.widgetsPageTest" time="0.346"/>
+  <testcase name="validatePresenceOfAlertFrameWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.622"/>
+  <testcase name="validatePracticeFormOption" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.825"/>
+  <testcase name="validateAccordianPageOperations" classname="com.cybage.assignment.test.widgetsPageTest" time="0.672"/>
+  <testcase name="validateFormFilling" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="1.137"/>
+  <testcase name="validateBrokenLinkImagesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="1.227"/>
+  <testcase name="validateAutoCompleteTextBoxes" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Purple] but found [Red],&#10;	expected [Red] but found [Green]"/>
+    <system-out><![CDATA[10-01-2021 10:31:54 utilities.java INFO  [TestNG-tests-2] objects.utilities 110 - Test Case TC017 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateAutoCompleteTextBoxes" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Purple] but found [Red],&#10;	expected [Red] but found [Green]"/>
+    <system-out><![CDATA[10-01-2021 10:32:01 utilities.java INFO  [TestNG-tests-2] objects.utilities 110 - Test Case TC012 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateAutoCompleteTextBoxes" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [Purple] but found [Red],&#10;	expected [Red] but found [Green]"/>
+    <system-out><![CDATA[10-01-2021 10:32:04 utilities.java INFO  [TestNG-tests-4] objects.utilities 110 - Test Case TC025 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateAutoCompleteTextBoxes" classname="com.cybage.assignment.test.widgetsPageTest" time="1.463">
+    <failure message="The following asserts failed:&#10;	expected [Purple] but found [Red],&#10;	expected [Red] but found [Green]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	expected [Purple] but found [Red],
+	expected [Red] but found [Green]
+	at com.cybage.assignment.test.widgetsPageTest.validateAutoCompleteTextBoxes(widgetsPageTest.java:88)
+</failure>
+    <system-out><![CDATA[10-01-2021 10:32:15 utilities.java INFO  [TestNG-tests-2] objects.utilities 110 - Test Case TC019 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateFormAfterSubmit" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.307"/>
+  <testcase name="validateButtonsOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.687"/>
+  <testcase name="validateCheckBoxOperation" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.456"/>
+  <testcase name="validateAlertsOption" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.514"/>
+  <testcase name="validateBrowserWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="4.815"/>
+  <testcase name="validateDynamicButtonsOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="2.164"/>
+  <testcase name="validateIFrameOperations" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="1.625"/>
+  <testcase name="validateLinksOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.823"/>
+  <testcase name="validateModalDialogsOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.675"/>
+  <testcase name="validateRadioButtonOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.579"/>
+  <testcase name="validateDatePickerOperation" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [May 25, 1988 12:15 AM] but found [May 25, 1988 10:32 AM]"/>
+    <system-out><![CDATA[10-01-2021 10:32:24 utilities.java INFO  [TestNG-tests-2] objects.utilities 110 - Test Case TC013 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateDatePickerOperation" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped message="The following asserts failed:&#10;	expected [May 25, 1988 12:15 AM] but found [January 25, 1988 10:32 AM]"/>
+    <system-out><![CDATA[10-01-2021 10:32:34 utilities.java INFO  [TestNG-tests-2] objects.utilities 110 - Test Case TC018 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateDatePickerOperation" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;div class=&quot;react-datepicker__day react-datepicker__day--0...&quot; tabindex=&quot;-1&quot; aria-label=&quot;Choose Wednesday, May 25th, 1988&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot;&gt;25&lt;/div&gt; is not clickable at point (644, 244). Other element would receive the click: &lt;div class=&quot;react-datepicker__year-option&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=93.0.4577.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9363b6f16f4270114bd8e9288a0a12a2"/>
+    <system-out><![CDATA[10-01-2021 10:32:50 utilities.java INFO  [TestNG-tests-5] objects.utilities 110 - Test Case TC031 is SKIPPED
+]]></system-out>
+  </testcase>
+  <testcase name="validateDatePickerOperation" classname="com.cybage.assignment.test.widgetsPageTest" time="2.887">
+    <failure message="element click intercepted: Element &lt;div class=&quot;react-datepicker__day react-datepicker__day--0...&quot; tabindex=&quot;-1&quot; aria-label=&quot;Choose Wednesday, May 25th, 1988&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot;&gt;25&lt;/div&gt; is not clickable at point (644, 244). Other element would receive the click: &lt;div class=&quot;react-datepicker__year-option&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=93.0.4577.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9363b6f16f4270114bd8e9288a0a12a2" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="react-datepicker__day react-datepicker__day--0..." tabindex="-1" aria-label="Choose Wednesday, May 25th, 1988" role="option" aria-disabled="false">25</div> is not clickable at point (644, 244). Other element would receive the click: <div class="react-datepicker__year-option">...</div>
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHINTAW-W10', ip: '172.27.85.17', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9363b6f16f4270114bd8e9288a0a12a2
+	at com.cybage.assignment.test.widgetsPageTest.validateDatePickerOperation(widgetsPageTest.java:97)
+]]></failure>
+    <system-out><![CDATA[10-01-2021 10:32:57 utilities.java INFO  [TestNG-tests-2] objects.utilities 110 - Test Case TC014 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateNestedFramesOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.382"/>
+  <testcase name="validateTextBoxOnSubmission" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.579"/>
+  <testcase name="validateUploadDownloadOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="2.302"/>
+  <testcase name="validateWebTablesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="4.27"/>
 </testsuite>
