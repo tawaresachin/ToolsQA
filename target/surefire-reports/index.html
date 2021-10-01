@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-HomePage">
-              <span class="suite-name border-passed">HomePage</span>
+            <a href="#" class="navigator-link" panel-name="suite-DemoQATest">
+              <span class="suite-name border-failed">DemoQATest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-HomePage">
+                  <a href="#" class="navigator-link " panel-name="test-xml-DemoQATest">
                     <span>C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\suites\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-HomePage">
+                  <a href="#" class="navigator-link " panel-name="testlist-DemoQATest">
                     <span class="test-stats">5 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-HomePage">
+                  <a href="#" class="navigator-link " panel-name="group-DemoQATest">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-HomePage">
+                  <a href="#" class="navigator-link " panel-name="times-DemoQATest">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-HomePage">
+                  <a href="#" class="navigator-link " panel-name="reporter-DemoQATest">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-HomePage">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DemoQATest">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-HomePage">
+                  <a href="#" class="navigator-link " panel-name="chronological-DemoQATest">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,176 +91,224 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">32 methods,   32 passed</span>
+                    <span class="method-stats">38 methods, 2 failed,  6 skipped,  30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DemoQATest" class="hide-methods failed suite-DemoQATest"> (hide)</a> <!-- hide-methods failed suite-DemoQATest -->
+                      <a href="#" panel-name="suite-DemoQATest" class="show-methods failed suite-DemoQATest"> (show)</a> <!-- show-methods failed suite-DemoQATest -->
+                    </span>
+                    <div class="method-list-content failed suite-DemoQATest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateAutoCompleteTextBoxes">validateAutoCompleteTextBoxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateDatePickerOperation">validateDatePickerOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DemoQATest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-DemoQATest" class="hide-methods skipped suite-DemoQATest"> (hide)</a> <!-- hide-methods skipped suite-DemoQATest -->
+                      <a href="#" panel-name="suite-DemoQATest" class="show-methods skipped suite-DemoQATest"> (show)</a> <!-- show-methods skipped suite-DemoQATest -->
+                    </span>
+                    <div class="method-list-content skipped suite-DemoQATest">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateAutoCompleteTextBoxes">validateAutoCompleteTextBoxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateAutoCompleteTextBoxes">validateAutoCompleteTextBoxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateAutoCompleteTextBoxes">validateAutoCompleteTextBoxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateDatePickerOperation">validateDatePickerOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateDatePickerOperation">validateDatePickerOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateDatePickerOperation">validateDatePickerOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-DemoQATest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-HomePage" class="hide-methods passed suite-HomePage"> (hide)</a> <!-- hide-methods passed suite-HomePage -->
-                      <a href="#" panel-name="suite-HomePage" class="show-methods passed suite-HomePage"> (show)</a> <!-- show-methods passed suite-HomePage -->
+                      <a href="#" panel-name="suite-DemoQATest" class="hide-methods passed suite-DemoQATest"> (hide)</a> <!-- hide-methods passed suite-DemoQATest -->
+                      <a href="#" panel-name="suite-DemoQATest" class="show-methods passed suite-DemoQATest"> (show)</a> <!-- show-methods passed suite-DemoQATest -->
                     </span>
-                    <div class="method-list-content passed suite-HomePage">
+                    <div class="method-list-content passed suite-DemoQATest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateAccordianPageOperations">validateAccordianPageOperations</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateAccordianPageOperations">validateAccordianPageOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateAlertsOption">validateAlertsOption</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateAlertsOption">validateAlertsOption</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateAutoCompleteTextBoxes">validateAutoCompleteTextBoxes</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateBrokenLinkImagesOperations">validateBrokenLinkImagesOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateBrokenLinkImagesOperations">validateBrokenLinkImagesOperations</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateBrowserWindowOptions">validateBrowserWindowOptions</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateBrowserWindowOptions">validateBrowserWindowOptions</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateButtonsOperations">validateButtonsOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateButtonsOperations">validateButtonsOperations</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateCheckBoxOperation">validateCheckBoxOperation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateCheckBoxOperation">validateCheckBoxOperation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateDynamicButtonsOperations">validateDynamicButtonsOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validateDatePickerOperation">validateDatePickerOperation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateElementScreen">validateElementScreen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateDynamicButtonsOperations">validateDynamicButtonsOperations</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaFormPageTest" hash-for-method="validateFormAfterSubmit">validateFormAfterSubmit</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateElementScreen">validateElementScreen</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaFormPageTest" hash-for-method="validateFormFilling">validateFormFilling</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaFormPageTest" hash-for-method="validateFormAfterSubmit">validateFormAfterSubmit</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateIFrameOperations">validateIFrameOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaFormPageTest" hash-for-method="validateFormFilling">validateFormFilling</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfAlertTabPresent">validateIfAlertTabPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateIFrameOperations">validateIFrameOperations</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfBookStoreTabPresent">validateIfBookStoreTabPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfAlertTabPresent">validateIfAlertTabPresent</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfElementsTabPresent">validateIfElementsTabPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfBookStoreTabPresent">validateIfBookStoreTabPresent</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfFormsTabPresent">validateIfFormsTabPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfElementsTabPresent">validateIfElementsTabPresent</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfInteractionsTabPresent">validateIfInteractionsTabPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfFormsTabPresent">validateIfFormsTabPresent</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfLogoPresent">validateIfLogoPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfInteractionsTabPresent">validateIfInteractionsTabPresent</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfWidgetTabPresent">validateIfWidgetTabPresent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfLogoPresent">validateIfLogoPresent</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateLinksOperations">validateLinksOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validateIfWidgetTabPresent">validateIfWidgetTabPresent</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateModalDialogsOperation">validateModalDialogsOperation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateLinksOperations">validateLinksOperations</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateNestedFramesOperation">validateNestedFramesOperation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateModalDialogsOperation">validateModalDialogsOperation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validatePageBanner">validatePageBanner</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validateNestedFramesOperation">validateNestedFramesOperation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validatePageTitle">validatePageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validatePageBanner">validatePageBanner</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaFormPageTest" hash-for-method="validatePracticeFormOption">validatePracticeFormOption</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaHomePageTest" hash-for-method="validatePageTitle">validatePageTitle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validatePresenceOfAlertFrameWindowOptions">validatePresenceOfAlertFrameWindowOptions</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaFormPageTest" hash-for-method="validatePracticeFormOption">validatePracticeFormOption</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validatePresenceOfWidgetOptions">validatePresenceOfWidgetOptions</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.alertFrameWindowPageTest" hash-for-method="validatePresenceOfAlertFrameWindowOptions">validatePresenceOfAlertFrameWindowOptions</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateRadioButtonOperations">validateRadioButtonOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.widgetsPageTest" hash-for-method="validatePresenceOfWidgetOptions">validatePresenceOfWidgetOptions</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateTextBoxOnSubmission">validateTextBoxOnSubmission</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateRadioButtonOperations">validateRadioButtonOperations</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateUploadDownloadOperations">validateUploadDownloadOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateTextBoxOnSubmission">validateTextBoxOnSubmission</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-DemoQATest" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateWebTablesOperations">validateWebTablesOperations</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateUploadDownloadOperations">validateUploadDownloadOperations</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-HomePage" title="com.cybage.assignment.test.toolsqaElementPageTest" hash-for-method="validateWebTablesOperations">validateWebTablesOperations</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-HomePage -->
+                    </div> <!-- method-list-content passed suite-DemoQATest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -271,8 +319,327 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-HomePage" class="panel HomePage">
-          <div class="suite-HomePage-class-passed">
+        <div panel-name="suite-DemoQATest" class="panel DemoQATest">
+          <div class="suite-DemoQATest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.cybage.assignment.test.widgetsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAutoCompleteTextBoxes">
+                  </a> <!-- validateAutoCompleteTextBoxes -->
+                  <span class="method-name">validateAutoCompleteTextBoxes</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Purple] but found [Red],
+	expected [Red] but found [Green]
+	at com.cybage.assignment.test.widgetsPageTest.validateAutoCompleteTextBoxes(widgetsPageTest.java:88)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDatePickerOperation">
+                  </a> <!-- validateDatePickerOperation -->
+                  <span class="method-name">validateDatePickerOperation</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;react-datepicker__day react-datepicker__day--0...&quot; tabindex=&quot;-1&quot; aria-label=&quot;Choose Wednesday, May 25th, 1988&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot;&gt;25&lt;/div&gt; is not clickable at point (644, 244). Other element would receive the click: &lt;div class=&quot;react-datepicker__year-option&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=93.0.4577.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9363b6f16f4270114bd8e9288a0a12a2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.cybage.assignment.page.widgetsPage.selectDateTimeUsingDatePicker(widgetsPage.java:260)
+	at com.cybage.assignment.test.widgetsPageTest.validateDatePickerOperation(widgetsPageTest.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoQATest-class-failed -->
+          <div class="suite-DemoQATest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.cybage.assignment.test.widgetsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAutoCompleteTextBoxes">
+                  </a> <!-- validateAutoCompleteTextBoxes -->
+                  <span class="method-name">validateAutoCompleteTextBoxes</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Purple] but found [Red],
+	expected [Red] but found [Green]
+	at com.cybage.assignment.test.widgetsPageTest.validateAutoCompleteTextBoxes(widgetsPageTest.java:88)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAutoCompleteTextBoxes">
+                  </a> <!-- validateAutoCompleteTextBoxes -->
+                  <span class="method-name">validateAutoCompleteTextBoxes</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Purple] but found [Red],
+	expected [Red] but found [Green]
+	at com.cybage.assignment.test.widgetsPageTest.validateAutoCompleteTextBoxes(widgetsPageTest.java:88)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAutoCompleteTextBoxes">
+                  </a> <!-- validateAutoCompleteTextBoxes -->
+                  <span class="method-name">validateAutoCompleteTextBoxes</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Purple] but found [Red],
+	expected [Red] but found [Green]
+	at com.cybage.assignment.test.widgetsPageTest.validateAutoCompleteTextBoxes(widgetsPageTest.java:88)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDatePickerOperation">
+                  </a> <!-- validateDatePickerOperation -->
+                  <span class="method-name">validateDatePickerOperation</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;react-datepicker__day react-datepicker__day--0...&quot; tabindex=&quot;-1&quot; aria-label=&quot;Choose Wednesday, May 25th, 1988&quot; role=&quot;option&quot; aria-disabled=&quot;false&quot;&gt;25&lt;/div&gt; is not clickable at point (644, 244). Other element would receive the click: &lt;div class=&quot;react-datepicker__year-option&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=93.0.4577.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9363b6f16f4270114bd8e9288a0a12a2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.cybage.assignment.page.widgetsPage.selectDateTimeUsingDatePicker(widgetsPage.java:260)
+	at com.cybage.assignment.test.widgetsPageTest.validateDatePickerOperation(widgetsPageTest.java:97)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDatePickerOperation">
+                  </a> <!-- validateDatePickerOperation -->
+                  <span class="method-name">validateDatePickerOperation</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [May 25, 1988 12:15 AM] but found [January 25, 1988 10:32 AM]
+	at com.cybage.assignment.test.widgetsPageTest.validateDatePickerOperation(widgetsPageTest.java:98)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDatePickerOperation">
+                  </a> <!-- validateDatePickerOperation -->
+                  <span class="method-name">validateDatePickerOperation</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [May 25, 1988 12:15 AM] but found [May 25, 1988 10:32 AM]
+	at com.cybage.assignment.test.widgetsPageTest.validateDatePickerOperation(widgetsPageTest.java:98)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoQATest-class-skipped -->
+          <div class="suite-DemoQATest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cybage.assignment.test.toolsqaHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfAlertTabPresent">
+                  </a> <!-- validateIfAlertTabPresent -->
+                  <span class="method-name">validateIfAlertTabPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfBookStoreTabPresent">
+                  </a> <!-- validateIfBookStoreTabPresent -->
+                  <span class="method-name">validateIfBookStoreTabPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfElementsTabPresent">
+                  </a> <!-- validateIfElementsTabPresent -->
+                  <span class="method-name">validateIfElementsTabPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfFormsTabPresent">
+                  </a> <!-- validateIfFormsTabPresent -->
+                  <span class="method-name">validateIfFormsTabPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfInteractionsTabPresent">
+                  </a> <!-- validateIfInteractionsTabPresent -->
+                  <span class="method-name">validateIfInteractionsTabPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfLogoPresent">
+                  </a> <!-- validateIfLogoPresent -->
+                  <span class="method-name">validateIfLogoPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfWidgetTabPresent">
+                  </a> <!-- validateIfWidgetTabPresent -->
+                  <span class="method-name">validateIfWidgetTabPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageBanner">
+                  </a> <!-- validatePageBanner -->
+                  <span class="method-name">validatePageBanner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageTitle">
+                  </a> <!-- validatePageTitle -->
+                  <span class="method-name">validatePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoQATest-class-passed -->
+          <div class="suite-DemoQATest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cybage.assignment.test.widgetsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAccordianPageOperations">
+                  </a> <!-- validateAccordianPageOperations -->
+                  <span class="method-name">validateAccordianPageOperations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePresenceOfWidgetOptions">
+                  </a> <!-- validatePresenceOfWidgetOptions -->
+                  <span class="method-name">validatePresenceOfWidgetOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoQATest-class-passed -->
+          <div class="suite-DemoQATest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.cybage.assignment.test.alertFrameWindowPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAlertsOption">
+                  </a> <!-- validateAlertsOption -->
+                  <span class="method-name">validateAlertsOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBrowserWindowOptions">
+                  </a> <!-- validateBrowserWindowOptions -->
+                  <span class="method-name">validateBrowserWindowOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIFrameOperations">
+                  </a> <!-- validateIFrameOperations -->
+                  <span class="method-name">validateIFrameOperations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateModalDialogsOperation">
+                  </a> <!-- validateModalDialogsOperation -->
+                  <span class="method-name">validateModalDialogsOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNestedFramesOperation">
+                  </a> <!-- validateNestedFramesOperation -->
+                  <span class="method-name">validateNestedFramesOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePresenceOfAlertFrameWindowOptions">
+                  </a> <!-- validatePresenceOfAlertFrameWindowOptions -->
+                  <span class="method-name">validatePresenceOfAlertFrameWindowOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoQATest-class-passed -->
+          <div class="suite-DemoQATest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.cybage.assignment.test.toolsqaElementPageTest</span>
@@ -349,129 +716,8 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HomePage-class-passed -->
-          <div class="suite-HomePage-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cybage.assignment.test.alertFrameWindowPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateAlertsOption">
-                  </a> <!-- validateAlertsOption -->
-                  <span class="method-name">validateAlertsOption</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateBrowserWindowOptions">
-                  </a> <!-- validateBrowserWindowOptions -->
-                  <span class="method-name">validateBrowserWindowOptions</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIFrameOperations">
-                  </a> <!-- validateIFrameOperations -->
-                  <span class="method-name">validateIFrameOperations</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateModalDialogsOperation">
-                  </a> <!-- validateModalDialogsOperation -->
-                  <span class="method-name">validateModalDialogsOperation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateNestedFramesOperation">
-                  </a> <!-- validateNestedFramesOperation -->
-                  <span class="method-name">validateNestedFramesOperation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatePresenceOfAlertFrameWindowOptions">
-                  </a> <!-- validatePresenceOfAlertFrameWindowOptions -->
-                  <span class="method-name">validatePresenceOfAlertFrameWindowOptions</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HomePage-class-passed -->
-          <div class="suite-HomePage-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cybage.assignment.test.toolsqaHomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIfAlertTabPresent">
-                  </a> <!-- validateIfAlertTabPresent -->
-                  <span class="method-name">validateIfAlertTabPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIfBookStoreTabPresent">
-                  </a> <!-- validateIfBookStoreTabPresent -->
-                  <span class="method-name">validateIfBookStoreTabPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIfElementsTabPresent">
-                  </a> <!-- validateIfElementsTabPresent -->
-                  <span class="method-name">validateIfElementsTabPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIfFormsTabPresent">
-                  </a> <!-- validateIfFormsTabPresent -->
-                  <span class="method-name">validateIfFormsTabPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIfInteractionsTabPresent">
-                  </a> <!-- validateIfInteractionsTabPresent -->
-                  <span class="method-name">validateIfInteractionsTabPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIfLogoPresent">
-                  </a> <!-- validateIfLogoPresent -->
-                  <span class="method-name">validateIfLogoPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIfWidgetTabPresent">
-                  </a> <!-- validateIfWidgetTabPresent -->
-                  <span class="method-name">validateIfWidgetTabPresent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatePageBanner">
-                  </a> <!-- validatePageBanner -->
-                  <span class="method-name">validatePageBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatePageTitle">
-                  </a> <!-- validatePageTitle -->
-                  <span class="method-name">validatePageTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HomePage-class-passed -->
-          <div class="suite-HomePage-class-passed">
+          </div> <!-- suite-DemoQATest-class-passed -->
+          <div class="suite-DemoQATest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.cybage.assignment.test.toolsqaFormPageTest</span>
@@ -499,45 +745,9 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HomePage-class-passed -->
-          <div class="suite-HomePage-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.cybage.assignment.test.widgetsPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateAccordianPageOperations">
-                  </a> <!-- validateAccordianPageOperations -->
-                  <span class="method-name">validateAccordianPageOperations</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateAutoCompleteTextBoxes">
-                  </a> <!-- validateAutoCompleteTextBoxes -->
-                  <span class="method-name">validateAutoCompleteTextBoxes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateDatePickerOperation">
-                  </a> <!-- validateDatePickerOperation -->
-                  <span class="method-name">validateDatePickerOperation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatePresenceOfWidgetOptions">
-                  </a> <!-- validatePresenceOfWidgetOptions -->
-                  <span class="method-name">validatePresenceOfWidgetOptions</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-HomePage-class-passed -->
-        </div> <!-- panel HomePage -->
-        <div panel-name="test-xml-HomePage" class="panel">
+          </div> <!-- suite-DemoQATest-class-passed -->
+        </div> <!-- panel DemoQATest -->
+        <div panel-name="test-xml-DemoQATest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\suites\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -545,7 +755,10 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;10&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;HomePage&quot; parallel=&quot;tests&quot; group-by-instances=&quot;true&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;DemoQATest&quot; parallel=&quot;tests&quot; group-by-instances=&quot;true&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.cybage.assignment.objects.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;10&quot; verbose=&quot;0&quot; name=&quot;toolsqaHomeTest&quot; parallel=&quot;tests&quot; group-by-instances=&quot;true&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.cybage.assignment.test.toolsqaHomePageTest&quot;/&gt;
@@ -571,13 +784,13 @@
       &lt;class name=&quot;com.cybage.assignment.test.widgetsPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- toolsqaWidgetTest --&gt;
-&lt;/suite&gt; &lt;!-- HomePage --&gt;
+&lt;/suite&gt; &lt;!-- DemoQATest --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-HomePage" class="panel">
+        <div panel-name="testlist-DemoQATest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for HomePage</span>
+            <span class="header-content">Tests for DemoQATest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
@@ -599,187 +812,232 @@
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-HomePage" class="panel">
+        <div panel-name="group-DemoQATest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for HomePage</span>
+            <span class="header-content">Groups for DemoQATest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-HomePage" class="panel">
+        <div panel-name="times-DemoQATest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for HomePage</span>
+            <span class="header-content">Times for DemoQATest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_HomePage');
-function tableData_HomePage() {
+suiteTableInitFunctions.push('tableData_DemoQATest');
+function tableData_DemoQATest() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(32);
+data.addRows(38);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateWebTablesOperations')
-data.setCell(0, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(0, 3, 20535);
+data.setCell(0, 1, 'validateDatePickerOperation')
+data.setCell(0, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(0, 3, 22177);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateAlertsOption')
-data.setCell(1, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
-data.setCell(1, 3, 18253);
+data.setCell(1, 1, 'validateWebTablesOperations')
+data.setCell(1, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
+data.setCell(1, 3, 20558);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateFormFilling')
-data.setCell(2, 2, 'com.cybage.assignment.test.toolsqaFormPageTest')
-data.setCell(2, 3, 11286);
+data.setCell(2, 1, 'validateAlertsOption')
+data.setCell(2, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
+data.setCell(2, 3, 19434);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateDynamicButtonsOperations')
 data.setCell(3, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(3, 3, 11157);
+data.setCell(3, 3, 11150);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'validateBrokenLinkImagesOperations')
 data.setCell(4, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(4, 3, 9590);
+data.setCell(4, 3, 9302);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateBrowserWindowOptions')
-data.setCell(5, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
-data.setCell(5, 3, 4758);
+data.setCell(5, 1, 'validateFormFilling')
+data.setCell(5, 2, 'com.cybage.assignment.test.toolsqaFormPageTest')
+data.setCell(5, 3, 4815);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateDatePickerOperation')
-data.setCell(6, 2, 'com.cybage.assignment.test.widgetsPageTest')
-data.setCell(6, 3, 4600);
+data.setCell(6, 1, 'validateBrowserWindowOptions')
+data.setCell(6, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
+data.setCell(6, 3, 4815);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validateIFrameOperations')
-data.setCell(7, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
-data.setCell(7, 3, 4406);
+data.setCell(7, 1, 'validateAccordianPageOperations')
+data.setCell(7, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(7, 3, 4785);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'validateAutoCompleteTextBoxes')
+data.setCell(8, 1, 'validateDatePickerOperation')
 data.setCell(8, 2, 'com.cybage.assignment.test.widgetsPageTest')
-data.setCell(8, 3, 4273);
+data.setCell(8, 3, 4731);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validateAccordianPageOperations')
-data.setCell(9, 2, 'com.cybage.assignment.test.widgetsPageTest')
-data.setCell(9, 3, 3528);
+data.setCell(9, 1, 'validateIFrameOperations')
+data.setCell(9, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
+data.setCell(9, 3, 4434);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'validateLinksOperations')
-data.setCell(10, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(10, 3, 2566);
+data.setCell(10, 1, 'validateAutoCompleteTextBoxes')
+data.setCell(10, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(10, 3, 3853);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'validateUploadDownloadOperations')
-data.setCell(11, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(11, 3, 2387);
+data.setCell(11, 1, 'validateAutoCompleteTextBoxes')
+data.setCell(11, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(11, 3, 3826);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'validateTextBoxOnSubmission')
-data.setCell(12, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(12, 3, 790);
+data.setCell(12, 1, 'validateAutoCompleteTextBoxes')
+data.setCell(12, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(12, 3, 3766);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'validateElementScreen')
-data.setCell(13, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(13, 3, 731);
+data.setCell(13, 1, 'validateAutoCompleteTextBoxes')
+data.setCell(13, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(13, 3, 3750);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'validatePracticeFormOption')
-data.setCell(14, 2, 'com.cybage.assignment.test.toolsqaFormPageTest')
-data.setCell(14, 3, 724);
+data.setCell(14, 1, 'validateDatePickerOperation')
+data.setCell(14, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(14, 3, 2887);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'validateButtonsOperations')
-data.setCell(15, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(15, 3, 658);
+data.setCell(15, 1, 'validateDatePickerOperation')
+data.setCell(15, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(15, 3, 2884);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'validateModalDialogsOperation')
-data.setCell(16, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
-data.setCell(16, 3, 656);
+data.setCell(16, 1, 'validateLinksOperations')
+data.setCell(16, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
+data.setCell(16, 3, 2678);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'validateRadioButtonOperations')
+data.setCell(17, 1, 'validateUploadDownloadOperations')
 data.setCell(17, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(17, 3, 564);
+data.setCell(17, 3, 2301);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'validatePresenceOfWidgetOptions')
-data.setCell(18, 2, 'com.cybage.assignment.test.widgetsPageTest')
-data.setCell(18, 3, 542);
+data.setCell(18, 1, 'validatePracticeFormOption')
+data.setCell(18, 2, 'com.cybage.assignment.test.toolsqaFormPageTest')
+data.setCell(18, 3, 2260);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'validateCheckBoxOperation')
+data.setCell(19, 1, 'validateTextBoxOnSubmission')
 data.setCell(19, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
-data.setCell(19, 3, 480);
+data.setCell(19, 3, 892);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'validateFormAfterSubmit')
-data.setCell(20, 2, 'com.cybage.assignment.test.toolsqaFormPageTest')
-data.setCell(20, 3, 385);
+data.setCell(20, 1, 'validatePresenceOfWidgetOptions')
+data.setCell(20, 2, 'com.cybage.assignment.test.widgetsPageTest')
+data.setCell(20, 3, 855);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'validateNestedFramesOperation')
-data.setCell(21, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
-data.setCell(21, 3, 384);
+data.setCell(21, 1, 'validateButtonsOperations')
+data.setCell(21, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
+data.setCell(21, 3, 687);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'validatePresenceOfAlertFrameWindowOptions')
+data.setCell(22, 1, 'validateModalDialogsOperation')
 data.setCell(22, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
-data.setCell(22, 3, 248);
+data.setCell(22, 3, 675);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'validateIfInteractionsTabPresent')
-data.setCell(23, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(23, 3, 78);
+data.setCell(23, 1, 'validateElementScreen')
+data.setCell(23, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
+data.setCell(23, 3, 645);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'validateIfLogoPresent')
-data.setCell(24, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(24, 3, 67);
+data.setCell(24, 1, 'validatePresenceOfAlertFrameWindowOptions')
+data.setCell(24, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
+data.setCell(24, 3, 622);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'validateIfAlertTabPresent')
-data.setCell(25, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(25, 3, 57);
+data.setCell(25, 1, 'validateRadioButtonOperations')
+data.setCell(25, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
+data.setCell(25, 3, 579);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'validateIfElementsTabPresent')
-data.setCell(26, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(26, 3, 54);
+data.setCell(26, 1, 'validateCheckBoxOperation')
+data.setCell(26, 2, 'com.cybage.assignment.test.toolsqaElementPageTest')
+data.setCell(26, 3, 456);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'validateIfBookStoreTabPresent')
-data.setCell(27, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(27, 3, 41);
+data.setCell(27, 1, 'validateFormAfterSubmit')
+data.setCell(27, 2, 'com.cybage.assignment.test.toolsqaFormPageTest')
+data.setCell(27, 3, 400);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'validateIfFormsTabPresent')
-data.setCell(28, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(28, 3, 39);
+data.setCell(28, 1, 'validateNestedFramesOperation')
+data.setCell(28, 2, 'com.cybage.assignment.test.alertFrameWindowPageTest')
+data.setCell(28, 3, 382);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'validateIfWidgetTabPresent')
+data.setCell(29, 1, 'validateIfElementsTabPresent')
 data.setCell(29, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(29, 3, 37);
+data.setCell(29, 3, 67);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'validatePageBanner')
+data.setCell(30, 1, 'validateIfAlertTabPresent')
 data.setCell(30, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(30, 3, 37);
+data.setCell(30, 3, 56);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'validatePageTitle')
+data.setCell(31, 1, 'validateIfInteractionsTabPresent')
 data.setCell(31, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
-data.setCell(31, 3, 3);
-window.suiteTableData['HomePage']= { tableData: data, tableDiv: 'times-div-HomePage'}
+data.setCell(31, 3, 54);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateIfBookStoreTabPresent')
+data.setCell(32, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
+data.setCell(32, 3, 49);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'validateIfFormsTabPresent')
+data.setCell(33, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
+data.setCell(33, 3, 38);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'validateIfWidgetTabPresent')
+data.setCell(34, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
+data.setCell(34, 3, 36);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'validatePageBanner')
+data.setCell(35, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
+data.setCell(35, 3, 36);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'validateIfLogoPresent')
+data.setCell(36, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
+data.setCell(36, 3, 35);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'validatePageTitle')
+data.setCell(37, 2, 'com.cybage.assignment.test.toolsqaHomePageTest')
+data.setCell(37, 3, 3);
+window.suiteTableData['DemoQATest']= { tableData: data, tableDiv: 'times-div-DemoQATest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-HomePage">
-              </div> <!-- times-div-HomePage -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-DemoQATest">
+              </div> <!-- times-div-DemoQATest -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-HomePage" class="panel">
+        <div panel-name="reporter-DemoQATest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for HomePage</span>
+            <span class="header-content">Reporter output for DemoQATest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-HomePage" class="panel">
+        <div panel-name="ignored-methods-DemoQATest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-HomePage" class="panel">
+        <div panel-name="chronological-DemoQATest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">testSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">testSetUp</span>
                 <span class="method-start">0 ms</span>
@@ -793,574 +1051,671 @@ return data;
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">testSetUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">testSetUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">testSetUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">13133 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">13537 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">15029 ms</span>
+                <span class="method-start">12841 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">16030 ms</span>
+                <span class="method-start">12915 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">13423 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">13802 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validatePracticeFormOption</span>
-                <span class="method-start">16140 ms</span>
+                <span class="method-name">validateIfAlertTabPresent</span>
+                <span class="method-start">13817 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateIfAlertTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfAlert...)</span>
+                <span class="method-start">13874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">13908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfBookStoreTabPresent</span>
+                <span class="method-start">13926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateIfBookStoreTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfB...)</span>
+                <span class="method-start">13975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">13977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfElementsTabPresent</span>
+                <span class="method-start">13987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateIfElementsTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfEl...)</span>
+                <span class="method-start">14054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">14056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfFormsTabPresent</span>
+                <span class="method-start">14064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateIfFormsTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfForms...)</span>
+                <span class="method-start">14102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">14104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfInteractionsTabPresent</span>
+                <span class="method-start">14109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateIfInteractionsTabPresent status=SUCCESS method=toolsqaHomePageTest.validate...)</span>
+                <span class="method-start">14163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">14165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfLogoPresent</span>
+                <span class="method-start">14172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateIfLogoPresent status=SUCCESS method=toolsqaHomePageTest.validateIfLogoPrese...)</span>
+                <span class="method-start">14207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">14209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfWidgetTabPresent</span>
+                <span class="method-start">14217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateIfWidgetTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfWidg...)</span>
+                <span class="method-start">14254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">14257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePageBanner</span>
+                <span class="method-start">14264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validatePageBanner status=SUCCESS method=toolsqaHomePageTest.validatePageBanner()[p...)</span>
+                <span class="method-start">14300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">14302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePageTitle</span>
+                <span class="method-start">14311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validatePageTitle status=SUCCESS method=toolsqaHomePageTest.validatePageTitle()[pri...)</span>
+                <span class="method-start">14314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">testCleanUp</span>
+                <span class="method-start">14315 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">releaseDriver</span>
+                <span class="method-start">15197 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">15627 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateElementScreen</span>
-                <span class="method-start">16544 ms</span>
+                <span class="method-start">15849 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validatePracticeFormOption status=SUCCESS method=toolsqaFormPageTest.validatePracti...)</span>
-                <span class="method-start">16865 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">16903 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateElementScreen status=SUCCESS method=toolsqaElementPageTest.validateElementS...)</span>
-                <span class="method-start">17275 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">17279 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validatePresenceOfAlertFrameWindowOptions</span>
-                <span class="method-start">18041 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validatePresenceOfAlertFrameWindowOptions status=SUCCESS method=alertFrameWindowPag...)</span>
-                <span class="method-start">18289 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">18291 ms</span>
-              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validatePresenceOfWidgetOptions</span>
-                <span class="method-start">19034 ms</span>
+                <span class="method-start">15927 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaHomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19083 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">validateIfAlertTabPresent</span>
-                <span class="method-start">19099 ms</span>
+                <span class="method-name">validatePresenceOfAlertFrameWindowOptions</span>
+                <span class="method-start">16436 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateIfAlertTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfAlert...)</span>
-                <span class="method-start">19156 ms</span>
+                <span class="method-name">captureAndReport([TestResult name=validateElementScreen status=SUCCESS method=toolsqaElementPageTest.validateElementS...)</span>
+                <span class="method-start">16494 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19158 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateIfBookStoreTabPresent</span>
-                <span class="method-start">19162 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateIfBookStoreTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfB...)</span>
-                <span class="method-start">19204 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19205 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateIfElementsTabPresent</span>
-                <span class="method-start">19222 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateIfElementsTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfEl...)</span>
-                <span class="method-start">19276 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19278 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateIfFormsTabPresent</span>
-                <span class="method-start">19287 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateIfFormsTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfForms...)</span>
-                <span class="method-start">19326 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19329 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateIfInteractionsTabPresent</span>
-                <span class="method-start">19339 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateIfInteractionsTabPresent status=SUCCESS method=toolsqaHomePageTest.validate...)</span>
-                <span class="method-start">19417 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19433 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateIfLogoPresent</span>
-                <span class="method-start">19448 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateIfLogoPresent status=SUCCESS method=toolsqaHomePageTest.validateIfLogoPrese...)</span>
-                <span class="method-start">19515 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19517 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateIfWidgetTabPresent</span>
-                <span class="method-start">19534 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateIfWidgetTabPresent status=SUCCESS method=toolsqaHomePageTest.validateIfWidg...)</span>
-                <span class="method-start">19571 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19573 ms</span>
+                <span class="method-start">16498 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validatePresenceOfWidgetOptions status=SUCCESS method=widgetsPageTest.validatePrese...)</span>
-                <span class="method-start">19576 ms</span>
+                <span class="method-start">16782 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19578 ms</span>
+                <span class="method-start">16784 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaHomePageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validatePageBanner</span>
-                <span class="method-start">19581 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validatePageBanner status=SUCCESS method=toolsqaHomePageTest.validatePageBanner()[p...)</span>
-                <span class="method-start">19618 ms</span>
+                <span class="method-name">captureAndReport([TestResult name=validatePresenceOfAlertFrameWindowOptions status=SUCCESS method=alertFrameWindowPag...)</span>
+                <span class="method-start">17058 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">19620 ms</span>
+                <span class="method-start">17061 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validatePageTitle</span>
-                <span class="method-start">19626 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validatePageTitle status=SUCCESS method=toolsqaHomePageTest.validatePageTitle()[pri...)</span>
-                <span class="method-start">19630 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">testCleanUp</span>
-                <span class="method-start">19631 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">validateFormFilling</span>
-                <span class="method-start">19907 ms</span>
+                <span class="method-name">validatePracticeFormOption</span>
+                <span class="method-start">18633 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateBrokenLinkImagesOperations</span>
-                <span class="method-start">20294 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validateAlertsOption</span>
-                <span class="method-start">21292 ms</span>
+                <span class="method-start">19505 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateAccordianPageOperations</span>
-                <span class="method-start">22587 ms</span>
+                <span class="method-start">19789 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaHomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">releaseDriver</span>
-                <span class="method-start">25414 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateAlertsOption</span>
+                <span class="method-start">20068 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validatePracticeFormOption status=SUCCESS method=toolsqaFormPageTest.validatePracti...)</span>
+                <span class="method-start">20893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">20896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFormFilling</span>
+                <span class="method-start">23902 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateAccordianPageOperations status=SUCCESS method=widgetsPageTest.validateAccor...)</span>
-                <span class="method-start">26115 ms</span>
+                <span class="method-start">24574 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">26117 ms</span>
+                <span class="method-start">24576 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAutoCompleteTextBoxes</span>
-                <span class="method-start">29121 ms</span>
+                <span class="method-start">27580 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateBrokenLinkImagesOperations status=SUCCESS method=toolsqaElementPageTest.val...)</span>
-                <span class="method-start">29885 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">29887 ms</span>
-              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateFormFilling status=SUCCESS method=toolsqaFormPageTest.validateFormFilling()...)</span>
-                <span class="method-start">31193 ms</span>
+                <span class="method-start">28717 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">31196 ms</span>
+                <span class="method-start">28720 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validateButtonsOperations</span>
-                <span class="method-start">32899 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateBrokenLinkImagesOperations status=SUCCESS method=toolsqaElementPageTest.val...)</span>
+                <span class="method-start">28807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">28811 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateAutoCompleteTextBoxes status=SUCCESS method=widgetsPageTest.validateAutoCom...)</span>
-                <span class="method-start">33394 ms</span>
+                <span class="method-name">captureAndReport([TestResult name=validateAutoCompleteTextBoxes status=SKIP method=widgetsPageTest.validateAutoComple...)</span>
+                <span class="method-start">31434 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">33397 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateButtonsOperations status=SUCCESS method=toolsqaElementPageTest.validateButt...)</span>
-                <span class="method-start">33557 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">33560 ms</span>
+                <span class="method-start">31436 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateFormAfterSubmit</span>
-                <span class="method-start">34208 ms</span>
+                <span class="method-start">31729 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateButtonsOperations</span>
+                <span class="method-start">31822 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateFormAfterSubmit status=SUCCESS method=toolsqaFormPageTest.validateFormAfter...)</span>
-                <span class="method-start">34593 ms</span>
+                <span class="method-start">32129 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">testCleanUp</span>
-                <span class="method-start">34595 ms</span>
+                <span class="method-start">32133 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateButtonsOperations status=SUCCESS method=toolsqaElementPageTest.validateButt...)</span>
+                <span class="method-start">32509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">32511 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">validateDatePickerOperation</span>
-                <span class="method-start">36406 ms</span>
+                <span class="method-name">validateAutoCompleteTextBoxes</span>
+                <span class="method-start">34440 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateCheckBoxOperation</span>
-                <span class="method-start">36562 ms</span>
+                <span class="method-start">35526 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateCheckBoxOperation status=SUCCESS method=toolsqaElementPageTest.validateChec...)</span>
-                <span class="method-start">37042 ms</span>
+                <span class="method-start">35982 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">37045 ms</span>
+                <span class="method-start">35984 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaFormPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">releaseDriver</span>
-                <span class="method-start">39386 ms</span>
+                <span class="method-start">36930 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateAlertsOption status=SUCCESS method=alertFrameWindowPageTest.validateAlertsO...)</span>
-                <span class="method-start">39545 ms</span>
+                <span class="method-name">captureAndReport([TestResult name=validateAutoCompleteTextBoxes status=SKIP method=widgetsPageTest.validateAutoComple...)</span>
+                <span class="method-start">38191 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">39548 ms</span>
+                <span class="method-start">38193 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateDynamicButtonsOperations</span>
-                <span class="method-start">40052 ms</span>
+                <span class="method-start">38989 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">captureAndReport([TestResult name=validateDatePickerOperation status=SUCCESS method=widgetsPageTest.validateDatePicke...)</span>
-                <span class="method-start">41007 ms</span>
+                <span class="method-name">captureAndReport([TestResult name=validateAlertsOption status=SUCCESS method=alertFrameWindowPageTest.validateAlertsO...)</span>
+                <span class="method-start">39503 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">testCleanUp</span>
-                <span class="method-start">41009 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">39506 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateAutoCompleteTextBoxes</span>
+                <span class="method-start">41194 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateBrowserWindowOptions</span>
-                <span class="method-start">42563 ms</span>
+                <span class="method-start">42511 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">releaseDriver</span>
-                <span class="method-start">46067 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateAutoCompleteTextBoxes status=SKIP method=widgetsPageTest.validateAutoComple...)</span>
+                <span class="method-start">44960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">44964 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateBrowserWindowOptions status=SUCCESS method=alertFrameWindowPageTest.validat...)</span>
-                <span class="method-start">47321 ms</span>
+                <span class="method-start">47326 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">47323 ms</span>
+                <span class="method-start">47329 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">validateIFrameOperations</span>
-                <span class="method-start">50330 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateAutoCompleteTextBoxes</span>
+                <span class="method-start">47975 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateDynamicButtonsOperations status=SUCCESS method=toolsqaElementPageTest.valid...)</span>
-                <span class="method-start">51209 ms</span>
+                <span class="method-start">50139 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">51212 ms</span>
+                <span class="method-start">50142 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateIFrameOperations</span>
+                <span class="method-start">50339 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateAutoCompleteTextBoxes status=FAILURE method=widgetsPageTest.validateAutoCom...)</span>
+                <span class="method-start">51802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">52002 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateLinksOperations</span>
-                <span class="method-start">54216 ms</span>
+                <span class="method-start">53148 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateIFrameOperations status=SUCCESS method=alertFrameWindowPageTest.validateIFr...)</span>
-                <span class="method-start">54736 ms</span>
+                <span class="method-start">54773 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">54738 ms</span>
+                <span class="method-start">54776 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateDatePickerOperation</span>
+                <span class="method-start">55003 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateLinksOperations status=SUCCESS method=toolsqaElementPageTest.validateLinksO...)</span>
-                <span class="method-start">56782 ms</span>
+                <span class="method-start">55826 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">56785 ms</span>
+                <span class="method-start">55828 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateModalDialogsOperation</span>
-                <span class="method-start">57739 ms</span>
+                <span class="method-start">57778 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateModalDialogsOperation status=SUCCESS method=alertFrameWindowPageTest.valida...)</span>
-                <span class="method-start">58395 ms</span>
+                <span class="method-start">58453 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">58398 ms</span>
+                <span class="method-start">58456 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateRadioButtonOperations</span>
-                <span class="method-start">59785 ms</span>
+                <span class="method-start">58840 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateRadioButtonOperations status=SUCCESS method=toolsqaElementPageTest.validate...)</span>
-                <span class="method-start">60349 ms</span>
+                <span class="method-start">59419 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">60351 ms</span>
+                <span class="method-start">59422 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateDatePickerOperation status=SKIP method=widgetsPageTest.validateDatePickerOp...)</span>
+                <span class="method-start">59734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">59736 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateNestedFramesOperation</span>
-                <span class="method-start">61404 ms</span>
+                <span class="method-start">61457 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateNestedFramesOperation status=SUCCESS method=alertFrameWindowPageTest.valida...)</span>
-                <span class="method-start">61788 ms</span>
+                <span class="method-start">61839 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">testCleanUp</span>
-                <span class="method-start">61790 ms</span>
+                <span class="method-start">61841 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateTextBoxOnSubmission</span>
-                <span class="method-start">63356 ms</span>
+                <span class="method-start">62429 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateDatePickerOperation</span>
+                <span class="method-start">62742 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateTextBoxOnSubmission status=SUCCESS method=toolsqaElementPageTest.validateTe...)</span>
-                <span class="method-start">64146 ms</span>
+                <span class="method-start">63321 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">64149 ms</span>
+                <span class="method-start">63324 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUploadDownloadOperations</span>
+                <span class="method-start">66338 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.alertFrameWindowPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">releaseDriver</span>
-                <span class="method-start">66745 ms</span>
+                <span class="method-start">66603 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validateUploadDownloadOperations</span>
-                <span class="method-start">67151 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateUploadDownloadOperations status=SUCCESS method=toolsqaElementPageTest.valid...)</span>
-                <span class="method-start">69538 ms</span>
+                <span class="method-start">68640 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">waitToLoadElements</span>
-                <span class="method-start">69540 ms</span>
+                <span class="method-start">68642 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateWebTablesOperations</span>
-                <span class="method-start">72550 ms</span>
+                <span class="method-start">71646 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateDatePickerOperation status=SKIP method=widgetsPageTest.validateDatePickerOp...)</span>
+                <span class="method-start">84919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">84921 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDatePickerOperation</span>
+                <span class="method-start">87934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateDatePickerOperation status=SKIP method=widgetsPageTest.validateDatePickerOp...)</span>
+                <span class="method-start">90818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">waitToLoadElements</span>
+                <span class="method-start">90820 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
                 <span class="method-name">captureAndReport([TestResult name=validateWebTablesOperations status=SUCCESS method=toolsqaElementPageTest.validateWe...)</span>
-                <span class="method-start">93085 ms</span>
+                <span class="method-start">92204 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">testCleanUp</span>
-                <span class="method-start">93087 ms</span>
+                <span class="method-start">92206 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateDatePickerOperation</span>
+                <span class="method-start">93831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureAndReport([TestResult name=validateDatePickerOperation status=FAILURE method=widgetsPageTest.validateDatePicke...)</span>
+                <span class="method-start">96718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">testCleanUp</span>
+                <span class="method-start">96859 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.toolsqaElementPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">releaseDriver</span>
-                <span class="method-start">97895 ms</span>
+                <span class="method-start">96996 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cybage.assignment.test.widgetsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">releaseDriver</span>
+                <span class="method-start">101631 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

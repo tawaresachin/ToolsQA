@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 99.712 s - in TestSuite
+Tests run: 38, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 108.129 s <<< FAILURE! - in TestSuite
+validateAutoCompleteTextBoxes(com.cybage.assignment.test.widgetsPageTest)  Time elapsed: 1.463 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Purple] but found [Red],
+	expected [Red] but found [Green]
+	at com.cybage.assignment.test.widgetsPageTest.validateAutoCompleteTextBoxes(widgetsPageTest.java:88)
+
+validateDatePickerOperation(com.cybage.assignment.test.widgetsPageTest)  Time elapsed: 2.887 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="react-datepicker__day react-datepicker__day--0..." tabindex="-1" aria-label="Choose Wednesday, May 25th, 1988" role="option" aria-disabled="false">25</div> is not clickable at point (644, 244). Other element would receive the click: <div class="react-datepicker__year-option">...</div>
+  (Session info: chrome=93.0.4577.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHINTAW-W10', ip: '172.27.85.17', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50552}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9363b6f16f4270114bd8e9288a0a12a2
+	at com.cybage.assignment.test.widgetsPageTest.validateDatePickerOperation(widgetsPageTest.java:97)
+

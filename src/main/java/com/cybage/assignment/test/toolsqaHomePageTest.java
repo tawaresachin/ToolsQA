@@ -1,4 +1,5 @@
 package com.cybage.assignment.test;
+import com.cybage.assignment.objects.RetryAnalyser;
 import com.cybage.assignment.page.toolsqaHomePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -8,7 +9,6 @@ import java.io.IOException;
 
 import static com.cybage.assignment.objects.toolsqaBase.browserFactory;
 import static com.cybage.assignment.objects.utilities.*;
-
 
 public class toolsqaHomePageTest
 {
@@ -118,9 +118,9 @@ public class toolsqaHomePageTest
         }
         else if(ITestResult.FAILURE==result.getStatus())
         {
-            screenshot(driver,TCID);
-            str=TC+TCID+" is FAILED";
-            logs(str);
+                screenshot(driver, TCID);
+                str = TC + TCID + " is FAILED";
+                logs(str);
         }
         else if(ITestResult.SKIP==result.getStatus())
         {

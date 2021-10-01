@@ -38,7 +38,8 @@ public class toolsqaBase
            default :
                System.setProperty(genericProp(genPath,"chromeProperty"), genericProp(genPath,"chromePath"));
                options=new ChromeOptions();
-               options.setExperimentalOption("prefs", prefs);
+               options.setExperimentalOption("prefs", prefs);       //to handle browser notification
+               options.setAcceptInsecureCerts(true);                      // to handle SSL certificates
                break;
        }
     }
