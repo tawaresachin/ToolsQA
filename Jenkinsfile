@@ -10,7 +10,7 @@ pipeline
             {
                 withMaven(maven:'maven_3_8_2')
                 {
-                sh 'mvn clean compile'
+                bat '/mvn clean compile/'
                 }
             }
         }
@@ -21,7 +21,7 @@ pipeline
                     {
                         withMaven(maven:'maven_3_8_2')
                         {
-                            sh 'mvn clean test'
+                            bat '/mvn clean test/'
                         }
                     }
                 }
