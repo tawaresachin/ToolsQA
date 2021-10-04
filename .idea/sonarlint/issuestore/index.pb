@@ -5,8 +5,6 @@ n
 >src/main/java/com/cybage/assignment/page/interactionsPage.java,8\b\8bcafd839b390961de75ca49a2ed3dc7a8a48105
 m
 =src/main/java/com/cybage/assignment/page/toolsqaHomePage.java,e\5\e57d9c8329d99f6432e0d858d652847e0f996c19
-k
-;src/main/java/com/cybage/assignment/objects/testsample.java,7\4\74e33b52f3af324f0f70fbb501fc366a7a1d2e53
 v
 Fsrc/main/java/com/cybage/assignment/page/bookStoreApplicationPage.java,9\a\9ae8a9fe65729d23f537f145c4f78a3898bfd7ba
 j
