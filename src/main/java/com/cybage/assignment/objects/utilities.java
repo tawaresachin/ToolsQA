@@ -3,7 +3,6 @@ package com.cybage.assignment.objects;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -11,7 +10,6 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Reporter;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,8 +17,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.time.LocalDateTime;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -36,13 +32,11 @@ public class utilities extends toolsqaBase
     static File dir;
     static DecimalFormat convert;
     static JavascriptExecutor js;
-    static Iterator<String> iterator;
     static ArrayList<String> window;
     static Select select;
     static WebDriverWait wait;
     static LocalDateTime localDateTime;
     static String date;
-    static SimpleDateFormat formatTime;
     static String time;
     static Alert alerts;
     static Workbook workbook;
@@ -69,9 +63,8 @@ public class utilities extends toolsqaBase
     public static String readWorkbook(String[] arr, int[] para) throws IOException                   //Generic Excel read utility
     {
 
-        try {
-            FileInputStream file = null;
-            file = new FileInputStream(arr[0]);
+        try (FileInputStream file = new FileInputStream(arr[0]))
+        {
             workbook = WorkbookFactory.create(file);
             sheet = workbook.getSheet(arr[1]);
             field = sheet.getRow(para[0]).getCell(para[1]);
@@ -80,30 +73,27 @@ public class utilities extends toolsqaBase
             {
                 convert = new DecimalFormat("#");
                 st = convert.format(field.getNumericCellValue());
-            } else {
-                st = field.getStringCellValue();                                                          //read String
-            }
-        } catch (FileNotFoundException e)
+            } else
+                st = field.getStringCellValue();                                                      //read String
+
+        }
+        catch (FileNotFoundException e)
         {
             logs(e.toString());
-        } catch (IOException e) {
-            logs(e.toString());
-        } catch (EncryptedDocumentException e)
-        {
-            logs(e.toString());
-        } finally
+        }
+        finally
         {
             workbook.close();
             file.close();
         }
-             return st;
+        return st;
     }
 
-    public static void logs(String str) throws IOException                                          //Logger for stdout & File
+    public static void logs(String str)                                       //Logger for stdout & File
     {
 
         try {
-            FileInputStream file=null;
+
             logger = Logger.getLogger(utilities.class);
             file = new FileInputStream(genericProp(genPath, "log4jFilePath"));
             PropertyConfigurator.configure(file);
@@ -147,13 +137,19 @@ public class utilities extends toolsqaBase
     public static Boolean waitForElementVisibilitySEC(WebDriver driver,WebElement element)                            //Wait until element is visible
     {
         wait=new WebDriverWait(driver,20);
-        boolean displayed = wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed();
-        return displayed;
+        return wait.until(ExpectedConditions.visibilityOf(element)).isDisplayed();
+
     }
     public static boolean waitForElementToBeClickableSEC(WebDriver driver,WebElement element)                            //Wait until element is clickable
     {
         wait=new WebDriverWait(driver,20);
         return(wait.until(ExpectedConditions.elementToBeClickable(element)).isEnabled());
+    }
+
+    public static Boolean waitUntilStalenessOfElement(WebDriver driver, WebElement element)
+    {
+        wait=new WebDriverWait(driver,10);
+        return (wait.until(ExpectedConditions.stalenessOf(element)));
     }
     public static void implicitWaitSEC(WebDriver driver,int time)                                                     //Wait to load web-elements
     {
@@ -164,13 +160,12 @@ public class utilities extends toolsqaBase
     {
         js=(JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true)",ele);
-        return;
     }
     public static void scrollIntoWindow(WebDriver driver,int X, int Y)
     {
         js=(JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(X,Y)");
-        return;
+        String scroll="window.scrollBy("+X+","+Y+")";
+        js.executeScript(scroll,"");
     }
 
     public static WebDriver switchToWindow(WebDriver driver,int winNo)
@@ -179,7 +174,7 @@ public class utilities extends toolsqaBase
         driver.switchTo().window(window.get(winNo));
         return driver;
     }
-    public static Boolean checkDownload(String downloadPath, String fileName) throws FileNotFoundException
+    public static Boolean checkDownload(String downloadPath, String fileName)
     {
         dir=new File(downloadPath);
         File[] dirContents = dir.listFiles();

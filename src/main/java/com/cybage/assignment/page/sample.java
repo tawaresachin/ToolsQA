@@ -1,35 +1,20 @@
 package com.cybage.assignment.page;
 
-import com.cybage.assignment.objects.utilities;
-import com.cybage.assignment.test.toolsqaElementPageTest;
-import com.cybage.assignment.test.toolsqaFormPageTest;
-import org.bouncycastle.util.Arrays;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.asserts.SoftAssert;
+import com.cybage.assignment.objects.*;
 
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.util.List;
-
-import static com.cybage.assignment.objects.locators.*;
-
-import static com.cybage.assignment.objects.toolsqaBase.*;
-import static com.cybage.assignment.objects.utilities.*;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class sample
 {
 
-    public static void main(String[] args)
-    {
-        LocalDateTime localDateTime = LocalDateTime.now();
-        String date=localDateTime.getMonthValue()+"_"+localDateTime.getDayOfWeek().getValue()+"_"+localDateTime.getYear();
-        System.out.println(date);
-        String time=localDateTime.getHour()+"_"+localDateTime.getMinute();
-        System.out.println(time);
-     }
+    public static void main(String[] args) throws SQLException {
 
+        String updateQuery="UPDATE \"testSchema1\".\"testTable1\" \n" +
+                "\tSET  marks=89\n" +
+                "\tWHERE student_Name='John Wick';";
+        SqlUtility sql=new SqlUtility();
+        sql.updateTable("CybageDB",updateQuery);
+        sql.tableData("CybageDB","\"testSchema1\".\"testTable1\"",3);
+    }
 }
