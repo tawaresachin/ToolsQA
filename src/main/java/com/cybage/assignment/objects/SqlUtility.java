@@ -8,6 +8,7 @@ public class SqlUtility extends utilities
     private Statement stmt;
     public ResultSet result;
 
+    /* This method establish the connection with provided database*/
     private Connection connectDB(String dbName)
     {
         connect = null;
@@ -25,6 +26,7 @@ public class SqlUtility extends utilities
         return connect;
     }
 
+    /* This method reads database table as per given query & provided database*/
     public ResultSet readTable(String dbName, String query) throws SQLException {
         stmt=null;
         try
@@ -47,6 +49,7 @@ public class SqlUtility extends utilities
         return result;
     }
 
+    /* This method updates the database table as per given query & provided database*/
     public void updateTable(String dbName, String query) throws SQLException
     {
         stmt=null;
@@ -70,6 +73,7 @@ public class SqlUtility extends utilities
         }
     }
 
+    /* This method reads whole data using provided database,tableName & total number of columns*/
     public void tableData(String dbName,String tableName,int totalColumn) throws SQLException {
         String readQuery="SELECT * FROM "+tableName;
         result = readTable(dbName, readQuery);
