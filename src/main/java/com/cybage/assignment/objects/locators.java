@@ -197,7 +197,7 @@ public class locators
     public static final String dateTimePickerYearView="//span[@class='react-datepicker__year-read-view--down-arrow']";
     public static final String dateTimePickerYear="//div[@class='react-datepicker__year-dropdown']//div";
     public static final String dateTimePickerDates="//div[@class='react-datepicker__week']//div";
-    public static final String datePickerTime="//div[@class='react-datepicker__time']//div//ul//li";
+    public static final String datePickerTime="//div[@class='react-datepicker__time']//li";
 
 
 

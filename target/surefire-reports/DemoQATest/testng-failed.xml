@@ -4,20 +4,27 @@
   <listeners>
     <listener class-name="com.cybage.assignment.objects.AnnotationTransformer"/>
   </listeners>
-  <test thread-count="10" verbose="0" name="toolsqaWidgetTest(failed)" parallel="tests">
+  <test thread-count="10" verbose="0" name="toolsqaElementTest(failed)" parallel="tests">
     <classes>
-      <class name="com.cybage.assignment.test.widgetsPageTest">
+      <class name="com.cybage.assignment.test.toolsqaElementPageTest">
         <methods>
-          <include name="validateAutoCompleteTextBoxes"/>
-          <include name="validatePresenceOfWidgetOptions"/>
-          <include name="releaseDriver"/>
-          <include name="validateDatePickerOperation"/>
-          <include name="waitToLoadElements"/>
+          <include name="validateRadioButtonOperations"/>
+          <include name="validateLinksOperations"/>
+          <include name="validateElementScreen"/>
+          <include name="validateCheckBoxOperation"/>
           <include name="testCleanUp"/>
-          <include name="testSetUp"/>
+          <include name="waitToLoadElements"/>
+          <include name="releaseDriver"/>
+          <include name="validateBrokenLinkImagesOperations"/>
+          <include name="validateButtonsOperations"/>
+          <include name="validateDynamicButtonsOperations"/>
           <include name="captureAndReport"/>
+          <include name="validateWebTablesOperations"/>
+          <include name="testSetUp"/>
+          <include name="validateTextBoxOnSubmission"/>
+          <include name="validateUploadDownloadOperations"/>
         </methods>
-      </class> <!-- com.cybage.assignment.test.widgetsPageTest -->
+      </class> <!-- com.cybage.assignment.test.toolsqaElementPageTest -->
     </classes>
-  </test> <!-- toolsqaWidgetTest(failed) -->
+  </test> <!-- toolsqaElementTest(failed) -->
 </suite> <!-- Failed suite [DemoQATest] -->

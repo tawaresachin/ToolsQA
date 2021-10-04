@@ -265,6 +265,7 @@ public class widgetsPage extends locators
             {
                 if(ele1.getText().equals(timePick))
                 {
+                    scrollIntoView(driver,ele1);
                     actOn(driver).moveToElement(ele1).click().build().perform();
                     break;
                 }
