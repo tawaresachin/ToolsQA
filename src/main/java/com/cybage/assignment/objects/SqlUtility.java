@@ -1,91 +1,105 @@
 package com.cybage.assignment.objects;
-import javax.xml.transform.Result;
+
+
 import java.sql.*;
 
-public class SqlUtility extends utilities
-{
+
+public class SqlUtility extends utilities {
     private Connection connect;
-    private Statement stmt;
-    public ResultSet result;
+    private CallableStatement stmt;
+    private ResultSet result;
+    private Object[][] data;
+    private String dbName;
 
     /* This method establish the connection with provided database*/
-    private Connection connectDB(String dbName)
-    {
+    private Connection connectDB(String dbName) {
         connect = null;
         try {
-             connect = DriverManager
-                    .getConnection("jdbc:postgresql://localhost:5432/"+dbName,
-                            genericProp(genPath,"sqlUser"), genericProp(genPath,"sqlPass"));
-            System.out.println("DB Connection Successful...!");
-        }
-        catch (Exception e) {
+            connect = DriverManager
+                    .getConnection("jdbc:postgresql://localhost:5432/" + dbName,
+                            genericProp(genPath, "sqlUser"), genericProp(genPath, "sqlPass"));
+            logs("DB Connection Successful...!");
+        } catch (Exception e) {
             e.printStackTrace();
-            System.err.println(e.getClass().getName()+": "+e.getMessage());
+            logs(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
         }
         return connect;
     }
 
     /* This method reads database table as per given query & provided database*/
-    public ResultSet readTable(String dbName, String query) throws SQLException {
-        stmt=null;
-        try
-        {
-            connect=connectDB(dbName);
-            System.out.println("Connection Initiated for readTable operation");
+    public SqlUtility readTable(String database, String query, boolean display) {
+        stmt = null;
+        try {
+            this.dbName=database;
+            connect = connectDB(dbName);
+            logs("Connection Initiated for readTable operation");
             connect.setAutoCommit(false);
-            stmt=connect.createStatement();
-            result=stmt.executeQuery(query);
-        }
-        catch(Exception e)
-        {
-            System.err.println( e.getClass().getName()+": "+ e.getMessage() );
+            stmt=connect.prepareCall(query,ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.TYPE_FORWARD_ONLY);
+            this.result = stmt.executeQuery();
+            if(display)
+            {   while (result.next()) {
+                    for (int i = 1; i <= result.getMetaData().getColumnCount(); i++) {
+                        System.out.print(result.getString(i) + " ");
+                    }
+                    System.out.println();
+                }
+            }
+
+        } catch (Exception e) {
+            logs(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
         }
-        finally
-        {
-            connect.close();
-        }
-        return result;
+        return this;
     }
 
     /* This method updates the database table as per given query & provided database*/
-    public void updateTable(String dbName, String query) throws SQLException
-    {
-        stmt=null;
-        try
-        {   connect=connectDB(dbName);
-            System.out.println("Connection Initiated for updateTable operation");
+    public SqlUtility updateTable(String updateQuery) {
+
+        try {
             connect.setAutoCommit(false);
-            stmt=connect.createStatement();
-            stmt.executeUpdate(query);
+            logs("Connection Initiated for updateTable operation");
+            stmt=connect.prepareCall(updateQuery);
+            stmt.executeUpdate();
             connect.commit();
-        }
-        catch(Exception e)
-        {
-            System.err.println( e.getClass().getName()+": "+ e.getMessage() );
-            System.exit(0);
-        }
-        finally
-        {
             stmt.close();
             connect.close();
+        } catch (Exception e) {
+            logs(e.getClass().getName() + ": " + e.getMessage());
+            System.exit(0);
         }
+        logs("Database Table update Successful...!");
+    return this;
     }
 
-    /* This method reads whole data using provided database,tableName & total number of columns*/
-    public void tableData(String dbName,String tableName,int totalColumn) throws SQLException {
-        String readQuery="SELECT * FROM "+tableName;
-        result = readTable(dbName, readQuery);
-        while(result.next())
+    public SqlUtility exportToExcel(String excelPath, String sheetName, boolean clearSheet) throws SQLException{
+        ExcelUtility excel=new ExcelUtility();
+        excel.openExcel(excelPath, sheetName);
+        if(clearSheet)
         {
-            for(int i=1;i<=totalColumn;i++)
-            {
-                System.out.print(result.getString(i)+" ");
-            }
-            System.out.println();
+            excel.clearSheet();
         }
-        result.close();
+
+            int totalColumn = result.getMetaData().getColumnCount();
+            result.last();
+            int size = result.getRow();
+            result.beforeFirst();
+            data = new Object[size][totalColumn];
+            int count = 0;
+            while (result.next()) {
+                for (int j = 1; j <= totalColumn; j++) {
+                    Object obj = result.getObject(j);
+                    if ( obj != null ) {
+                        data[count][j - 1] = obj;
+                    }
+                }
+                count++;
+            }
+            excel.appendDataInSheet(data).saveAndClose();
+        logs("Data is successfully Exported to worksheet "+sheetName+" at "+excelPath);
+        return this;
+        }
+
     }
 
-}
+
