@@ -2959,3 +2959,11 @@
 10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
 10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
 10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-06-2021 10:48:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 10:48:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 10:48:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-06-2021 10:48:34 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-06-2021 10:48:35 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-06-2021 10:48:35 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-06-2021 11:06:32 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 11:06:32 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
