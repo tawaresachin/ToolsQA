@@ -8,13 +8,14 @@ public class SqlUtility extends utilities {
     private Connection connect;
     private CallableStatement stmt;
     private ResultSet result;
-    private Object[][] data;
-    private String dbName;
+
 
     /* This method establish the connection with provided database*/
-    private Connection connectDB(String dbName) {
+    public SqlUtility connectDB(String database) {
+        String dbName=database;
         connect = null;
         try {
+
             connect = DriverManager
                     .getConnection("jdbc:postgresql://localhost:5432/" + dbName,
                             genericProp(genPath, "sqlUser"), genericProp(genPath, "sqlPass"));
@@ -24,18 +25,16 @@ public class SqlUtility extends utilities {
             logs(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
         }
-        return connect;
+        return this;
     }
 
     /* This method reads database table as per given query & provided database*/
-    public SqlUtility readTable(String database, String query, boolean display) {
+    public SqlUtility readTable(String readQuery, boolean display) {
         stmt = null;
         try {
-            this.dbName=database;
-            connect = connectDB(dbName);
             logs("Connection Initiated for readTable operation");
             connect.setAutoCommit(false);
-            stmt=connect.prepareCall(query,ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.TYPE_FORWARD_ONLY);
+            stmt=connect.prepareCall(readQuery,ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.TYPE_FORWARD_ONLY);
             this.result = stmt.executeQuery();
             if(display)
             {   while (result.next()) {
@@ -62,8 +61,6 @@ public class SqlUtility extends utilities {
             stmt=connect.prepareCall(updateQuery);
             stmt.executeUpdate();
             connect.commit();
-            stmt.close();
-            connect.close();
         } catch (Exception e) {
             logs(e.getClass().getName() + ": " + e.getMessage());
             System.exit(0);
@@ -73,7 +70,7 @@ public class SqlUtility extends utilities {
     }
 
     public SqlUtility exportToExcel(String excelPath, String sheetName, boolean clearSheet) throws SQLException{
-        ExcelUtility excel=new ExcelUtility();
+         ExcelUtility excel=new ExcelUtility();
         excel.openExcel(excelPath, sheetName);
         if(clearSheet)
         {
@@ -84,7 +81,7 @@ public class SqlUtility extends utilities {
             result.last();
             int size = result.getRow();
             result.beforeFirst();
-            data = new Object[size][totalColumn];
+            Object[][] data = new Object[size][totalColumn];
             int count = 0;
             while (result.next()) {
                 for (int j = 1; j <= totalColumn; j++) {
@@ -99,6 +96,20 @@ public class SqlUtility extends utilities {
         logs("Data is successfully Exported to worksheet "+sheetName+" at "+excelPath);
         return this;
         }
+
+        public SqlUtility closeConnection()
+        {
+            try {
+                stmt.close();
+                connect.close();
+            }
+            catch(Exception e)
+            {
+                logs(e.getClass().getName() + ": " + e.getMessage());
+            }
+            return this;
+        }
+
 
     }
 
