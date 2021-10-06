@@ -2342,3 +2342,620 @@
 10-04-2021 10:57:48 utilities.java INFO  [TestNG-tests-2] objects.utilities 100 - Test Case TC017 is SKIPPED
 10-04-2021 10:58:03 utilities.java INFO  [TestNG-tests-2] objects.utilities 100 - Test Case TC017 is SKIPPED
 10-04-2021 10:58:19 utilities.java INFO  [TestNG-tests-2] objects.utilities 100 - Test Case TC017 is SKIPPED
+10-04-2021 18:12:18 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:17:35 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: FATAL: database "CybageD" does not exist
+10-04-2021 18:22:39 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: FATAL: database "CybageD" does not exist
+10-04-2021 18:29:10 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: FATAL: database "CybageD" does not exist
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - 1002 
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - James Bond 
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - 90 
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - 1001 
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - John Wick 
+10-04-2021 18:29:22 utilities.java INFO  [main] objects.utilities 100 - 89 
+10-04-2021 18:32:28 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 18:32:28 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - 1002 
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - James Bond 
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - 90 
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - 1001 
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - John Wick 
+10-04-2021 18:33:18 utilities.java INFO  [main] objects.utilities 100 - 89 
+10-04-2021 18:36:43 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 18:36:43 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:37:21 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 18:37:21 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:37:21 SqlUtility.java INFO  [main] objects.utilities 82 - 1002 
+10-04-2021 18:37:21 SqlUtility.java INFO  [main] objects.utilities 82 - James Bond 
+10-04-2021 18:37:21 SqlUtility.java INFO  [main] objects.utilities 82 - 90 
+10-04-2021 18:37:21 SqlUtility.java INFO  [main] objects.utilities 82 - 1001 
+10-04-2021 18:37:21 SqlUtility.java INFO  [main] objects.utilities 82 - John Wick 
+10-04-2021 18:37:21 SqlUtility.java INFO  [main] objects.utilities 82 - 89 
+10-04-2021 18:37:46 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 18:37:46 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:37:46 SqlUtility.java OFF   [main] objects.utilities 82 - 1002 
+10-04-2021 18:37:46 SqlUtility.java OFF   [main] objects.utilities 82 - James Bond 
+10-04-2021 18:37:46 SqlUtility.java OFF   [main] objects.utilities 82 - 90 
+10-04-2021 18:37:46 SqlUtility.java OFF   [main] objects.utilities 82 - 1001 
+10-04-2021 18:37:46 SqlUtility.java OFF   [main] objects.utilities 82 - John Wick 
+10-04-2021 18:37:46 SqlUtility.java OFF   [main] objects.utilities 82 - 89 
+10-04-2021 18:59:42 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 18:59:42 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 18:59:42 SqlUtility.java INFO  [main] objects.utilities 88 - Ignore
+10-04-2021 18:59:42 SqlUtility.java INFO  [main] objects.utilities 88 - Ignore
+10-04-2021 18:59:42 SqlUtility.java INFO  [main] objects.utilities 88 - Ignore
+10-04-2021 18:59:42 SqlUtility.java INFO  [main] objects.utilities 88 - Ignore
+10-04-2021 18:59:42 SqlUtility.java INFO  [main] objects.utilities 88 - Ignore
+10-04-2021 18:59:42 SqlUtility.java INFO  [main] objects.utilities 88 - Ignore
+10-04-2021 19:03:01 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-04-2021 19:03:01 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-04-2021 20:44:57 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-05-2021 08:52:14 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 08:52:14 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:12:28 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:12:28 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:14:04 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:14:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:19:10 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:19:10 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:20:16 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:20:16 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:20:56 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:20:56 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:24:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:24:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:29:32 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:29:32 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:29:56 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:29:56 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:30:55 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:30:55 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:33:14 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:33:14 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:34:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:34:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:37:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:37:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:38:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:38:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 09:53:37 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 09:53:37 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:12:37 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:12:37 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:13:37 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:13:37 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:36:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:36:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:38:36 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:38:36 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:39:39 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:39:39 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:41:23 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:41:23 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:42:16 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:42:16 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:42:40 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:42:40 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:43:59 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:43:59 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:46:47 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:46:47 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:53:45 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:53:45 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:57:19 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:57:19 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:59:25 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:59:25 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 10:59:40 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 10:59:40 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:01:04 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:01:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:01:36 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:01:36 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:03:26 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:03:26 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:05:17 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:05:17 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:06:03 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:06:03 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:06:19 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:06:19 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:08:06 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:08:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:12:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:12:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:12:53 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:12:53 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:13:17 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:13:17 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:13:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:13:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 11:17:43 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 11:17:43 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:12:29 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:12:29 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:13:31 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:13:31 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:14:58 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:14:58 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:15:24 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:15:24 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:16:36 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:16:36 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:18:24 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:18:24 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:19:06 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:19:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:20:12 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:20:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:20:37 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:20:37 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:21:02 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:21:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:21:56 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:21:56 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:26:26 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:26:26 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:30:17 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:30:17 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:31:48 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:31:48 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:32:19 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:32:19 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:33:37 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:33:37 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:34:16 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:34:16 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:37:03 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:37:03 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:40:02 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:40:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:40:54 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:40:54 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:41:29 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:41:29 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:43:25 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:43:25 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:44:01 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:44:01 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:45:41 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:45:41 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:46:13 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:46:13 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:48:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:48:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:49:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:49:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:49:57 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:49:57 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:50:23 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:50:23 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:51:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:51:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:53:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:53:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:54:29 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:54:29 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:56:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:56:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:56:28 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:56:28 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 12:59:46 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 12:59:46 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:00:19 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:00:19 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:02:25 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:02:25 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:04:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:04:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:07:05 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:07:05 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:07:32 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:07:32 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:08:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:08:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:10:20 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:10:20 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:11:05 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:11:05 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:11:25 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:11:25 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:12:16 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:12:16 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:13:12 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:13:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:13:47 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:13:47 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:14:17 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:14:17 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:14:50 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:14:50 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:15:40 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:15:40 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:20:00 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:20:00 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:20:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:20:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:22:09 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:22:09 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:22:58 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:22:58 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:24:17 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:24:17 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:24:39 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:24:39 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:25:36 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:25:36 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:26:49 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:26:49 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:29:09 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:29:09 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:32:39 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:32:39 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:33:50 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:33:50 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:34:18 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:34:18 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:34:42 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:34:42 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:34:56 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:34:56 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:35:16 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:35:16 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:37:50 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:37:50 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:38:09 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:38:09 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:39:44 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:39:44 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:40:04 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:40:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:40:33 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:40:33 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:41:13 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:41:13 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:41:31 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:41:31 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:48:50 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:48:50 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 13:50:10 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 13:50:10 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:34:54 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:34:54 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:37:26 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:37:26 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:39:49 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:39:49 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:47:42 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:47:42 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:49:56 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:49:56 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:50:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:50:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:51:57 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:51:57 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:54:02 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:54:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:54:49 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:54:49 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:55:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:55:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:55:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:55:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:56:06 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:56:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:56:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:56:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:58:23 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:58:23 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:59:01 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:59:01 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 14:59:39 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 14:59:39 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:00:02 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:00:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:07:59 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:07:59 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:09:42 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:09:42 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:10:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:10:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:11:17 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:11:17 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:12:48 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:12:48 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:13:04 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:13:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:14:07 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:14:07 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:14:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:14:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:15:14 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:15:14 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:15:40 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:15:40 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:16:45 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:16:45 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:17:57 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:17:57 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:18:28 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:18:28 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:22:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:22:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:23:09 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:23:09 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:23:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:23:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:28:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:28:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:32:36 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:32:36 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:41:36 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:41:36 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:41:58 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:41:58 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:43:07 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:43:07 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:43:07 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: No results were returned by the query.
+10-05-2021 15:44:04 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:44:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:44:04 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: Can't use query methods that take a query string on a PreparedStatement.
+10-05-2021 15:44:45 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:44:45 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:44:45 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: Can't use query methods that take a query string on a PreparedStatement.
+10-05-2021 15:45:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:45:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:45:08 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "query"
+  Position: 1
+10-05-2021 15:45:26 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:45:26 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:47:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:47:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:48:54 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:48:54 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:49:58 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:49:58 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:53:24 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:53:24 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:57:03 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:57:03 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 15:58:59 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 15:58:59 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:01:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:01:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:01:27 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:01:51 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:01:51 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:03:11 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:03:11 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:04:04 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:04:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:04:40 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:04:40 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:05:06 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:05:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:06:58 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:06:58 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:12:38 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:12:38 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:18:03 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:18:03 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:21:41 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:21:41 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:21:42 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:21:42 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:23:25 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:23:25 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:23:25 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:23:25 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:24:24 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:24:24 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:24:25 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:25:01 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:25:01 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:25:02 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:25:30 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:25:30 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:25:30 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:25:30 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:26:02 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:26:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:26:03 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:26:03 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-05-2021 16:27:18 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:27:18 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:27:59 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:27:59 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:29:01 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:29:01 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:30:30 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:30:30 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:30:52 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:30:52 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:32:43 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:32:43 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:36:53 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:36:53 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:37:47 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:37:47 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:39:07 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:39:07 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:39:07 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: ERROR: syntax error at or near ""testSchema1""
+  Position: 1
+10-05-2021 16:40:05 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:40:05 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:43:38 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:43:38 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:45:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:45:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:46:10 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:46:10 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:47:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:47:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:48:03 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:48:03 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:49:06 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:49:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:49:30 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:49:30 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:50:12 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:50:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:50:48 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:50:48 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:51:10 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:51:10 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:51:38 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:51:38 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:52:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:52:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:54:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 16:54:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 16:54:34 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "ASC"
+  Position: 51
+10-05-2021 17:08:24 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:08:24 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:10:40 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:10:40 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:11:06 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:11:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:12:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:12:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:12:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:12:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:13:56 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:13:56 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:20:46 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:20:46 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:27:53 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:27:53 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:28:12 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:28:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:29:21 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:29:21 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:29:52 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:29:52 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:30:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:30:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:32:15 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:32:15 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 17:32:30 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 17:32:30 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 18:38:02 utilities.java INFO  [main] objects.utilities 100 - java.io.IOException: Cannot write data, document seems to have been closed already
+10-05-2021 18:39:59 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-05-2021 18:43:32 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 18:57:10 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 19:06:24 utilities.java INFO  [main] objects.utilities 100 - java.lang.ClassCastException: class com.cybage.assignment.objects.ExcelUtility cannot be cast to class org.apache.poi.ss.usermodel.Cell (com.cybage.assignment.objects.ExcelUtility and org.apache.poi.ss.usermodel.Cell are in unnamed module of loader 'app')
+10-05-2021 19:10:05 utilities.java INFO  [main] objects.utilities 100 - java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+10-05-2021 19:11:13 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 19:11:13 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 19:25:13 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 19:25:13 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 19:26:12 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 19:26:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 19:36:12 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 19:36:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:03:36 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:03:36 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:13:43 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:13:43 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:13:43 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:13:43 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: FATAL: database "null" does not exist
+10-05-2021 20:15:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:15:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:15:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:15:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:15:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:15:27 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: No results were returned by the query.
+10-05-2021 20:17:54 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:17:54 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:17:54 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:17:54 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: Can't use query methods that take a query string on a PreparedStatement.
+10-05-2021 20:18:14 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:18:14 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:18:14 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:18:14 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: Can't use query methods that take a query string on a PreparedStatement.
+10-05-2021 20:23:02 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:23:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:23:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:23:02 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: Can't use query methods that take a query string on a PreparedStatement.
+10-05-2021 20:24:51 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:24:51 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:24:51 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:24:51 utilities.java INFO  [main] objects.utilities 100 - org.postgresql.util.PSQLException: Can't use query methods that take a query string on a PreparedStatement.
+10-05-2021 20:31:25 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:31:25 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:31:25 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:32:53 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:32:53 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:32:53 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:32:53 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 20:32:54 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-05-2021 20:36:58 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:36:58 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:36:58 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:36:58 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 20:36:58 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-05-2021 20:39:34 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:39:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:39:34 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:39:34 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 20:45:02 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:45:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:45:02 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:45:02 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 20:45:03 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-05-2021 20:54:21 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:54:21 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:54:21 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:54:21 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 20:56:21 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 20:56:21 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 20:56:21 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 20:56:21 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:04:12 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:04:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:04:12 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:04:12 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:05:07 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:05:07 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:05:07 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:05:07 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:05:49 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:05:49 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:05:49 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:05:49 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:06:06 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:06:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:06:06 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:06:06 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:07:29 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:07:29 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:07:29 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:07:29 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:08:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:08:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:08:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:08:27 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:08:28 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:08:28 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-05-2021 21:17:29 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:19:13 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:19:13 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:19:13 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:19:13 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:23:25 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:24:43 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:25:04 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:25:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:25:04 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:25:04 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:25:04 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for updateTable operation
+10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - Database Table update Successful...!
+10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-05-2021 21:27:55 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
