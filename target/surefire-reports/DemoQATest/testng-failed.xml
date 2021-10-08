@@ -27,4 +27,56 @@
       </class> <!-- com.cybage.assignment.test.toolsqaElementPageTest -->
     </classes>
   </test> <!-- toolsqaElementTest(failed) -->
+  <test thread-count="10" verbose="0" name="toolsqaHomeTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.cybage.assignment.test.toolsqaHomePageTest">
+        <methods>
+          <include name="validateIfElementsTabPresent"/>
+          <include name="testCleanUp"/>
+          <include name="validateIfWidgetTabPresent"/>
+          <include name="releaseDriver"/>
+          <include name="captureAndReport"/>
+          <include name="validateIfAlertTabPresent"/>
+          <include name="testSetUp"/>
+          <include name="validateIfBookStoreTabPresent"/>
+          <include name="validateIfInteractionsTabPresent"/>
+          <include name="validatePageBanner"/>
+          <include name="validateIfLogoPresent"/>
+          <include name="validateIfFormsTabPresent"/>
+          <include name="validatePageTitle"/>
+          <include name="waitToLoadElements"/>
+        </methods>
+      </class> <!-- com.cybage.assignment.test.toolsqaHomePageTest -->
+    </classes>
+  </test> <!-- toolsqaHomeTest(failed) -->
+  <test thread-count="10" verbose="0" name="toolsqaWidgetTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.cybage.assignment.test.widgetsPageTest">
+        <methods>
+          <include name="validatePresenceOfWidgetOptions"/>
+          <include name="releaseDriver"/>
+          <include name="waitToLoadElements"/>
+          <include name="testCleanUp"/>
+          <include name="validateAccordianPageOperations"/>
+          <include name="testSetUp"/>
+          <include name="captureAndReport"/>
+        </methods>
+      </class> <!-- com.cybage.assignment.test.widgetsPageTest -->
+    </classes>
+  </test> <!-- toolsqaWidgetTest(failed) -->
+  <test thread-count="10" verbose="0" name="toolsqaWindowTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.cybage.assignment.test.alertFrameWindowPageTest">
+        <methods>
+          <include name="captureAndReport"/>
+          <include name="testSetUp"/>
+          <include name="validatePresenceOfAlertFrameWindowOptions"/>
+          <include name="releaseDriver"/>
+          <include name="validateModalDialogsOperation"/>
+          <include name="waitToLoadElements"/>
+          <include name="testCleanUp"/>
+        </methods>
+      </class> <!-- com.cybage.assignment.test.alertFrameWindowPageTest -->
+    </classes>
+  </test> <!-- toolsqaWindowTest(failed) -->
 </suite> <!-- Failed suite [DemoQATest] -->

@@ -2967,3 +2967,199 @@
 10-06-2021 10:48:35 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
 10-06-2021 11:06:32 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
 10-06-2021 11:06:32 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 14:42:04 utilities.java INFO  [TestNG-tests-3] objects.utilities 100 - Test Case TC020 is PASS
+10-06-2021 14:42:04 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC023 is PASS
+10-06-2021 14:42:04 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC029 is PASS
+10-06-2021 14:42:09 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC030 is SKIPPED
+10-06-2021 14:42:11 utilities.java INFO  [TestNG-tests-3] objects.utilities 100 - Test Case TC021 is PASS
+10-06-2021 14:42:12 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC030 is SKIPPED
+10-06-2021 14:42:15 utilities.java INFO  [TestNG-tests-3] objects.utilities 100 - Test Case TC022 is PASS
+10-06-2021 14:42:15 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC030 is SKIPPED
+10-06-2021 14:42:18 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC030 is FAILED
+10-06-2021 14:42:25 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC025 is PASS
+10-06-2021 14:42:25 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC031 is PASS
+10-06-2021 14:42:33 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC024 is PASS
+10-06-2021 14:42:35 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC031 is PASS
+10-06-2021 14:42:41 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC026 is PASS
+10-06-2021 14:42:44 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC028 is SKIPPED
+10-06-2021 14:42:47 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC028 is SKIPPED
+10-06-2021 14:42:50 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC028 is SKIPPED
+10-06-2021 14:42:53 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC028 is FAILED
+10-06-2021 14:42:57 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC027 is PASS
+10-06-2021 19:53:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 19:53:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 19:58:23 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 19:58:23 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 19:58:24 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-06-2021 19:58:52 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 19:58:52 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 19:58:53 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-06-2021 20:00:08 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 20:00:08 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 20:00:09 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-06-2021 20:00:45 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 20:00:45 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 20:00:45 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-06-2021 20:00:45 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-06-2021 20:24:35 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 20:24:35 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 20:24:35 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-06-2021 20:24:35 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx (The process cannot access the file because it is being used by another process)
+10-06-2021 20:24:35 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-06-2021 20:25:19 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-06-2021 20:25:19 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-06-2021 20:25:19 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-06-2021 20:25:20 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 07:48:27 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-07-2021 07:48:27 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-07-2021 07:48:27 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 07:48:27 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 07:50:32 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-07-2021 07:50:32 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-07-2021 07:50:33 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 07:50:33 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 08:01:00 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-07-2021 08:01:00 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-07-2021 08:01:00 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 08:01:00 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 08:02:37 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-07-2021 08:02:37 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-07-2021 08:02:38 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 08:02:38 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 08:04:30 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-07-2021 08:04:30 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-07-2021 08:04:31 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 08:04:31 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 08:06:29 utilities.java INFO  [main] objects.utilities 100 - DB Connection Successful...!
+10-07-2021 08:06:29 utilities.java INFO  [main] objects.utilities 100 - Connection Initiated for readTable operation
+10-07-2021 08:06:30 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 08:06:30 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 12:07:58 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.InvalidPathException: Illegal char <:> at index 11: excelpath=C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData1.csv
+10-07-2021 13:54:38 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 14:42:28 utilities.java INFO  [main] objects.utilities 100 - java.util.NoSuchElementException: null
+10-07-2021 14:51:20 utilities.java INFO  [main] objects.utilities 100 - java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 2
+10-07-2021 14:51:28 utilities.java INFO  [main] objects.utilities 100 - java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+10-07-2021 14:55:15 utilities.java INFO  [main] objects.utilities 100 - java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 2
+10-07-2021 14:55:15 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 14:55:32 utilities.java INFO  [main] objects.utilities 100 - java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+10-07-2021 14:55:32 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 16:17:03 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-07-2021 16:17:04 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 16:18:38 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 17:21:58 utilities.java INFO  [main] objects.utilities 100 - java.lang.ClassCastException: class java.io.FileInputStream cannot be cast to class java.nio.file.Path (java.io.FileInputStream and java.nio.file.Path are in module java.base of loader 'bootstrap')
+10-07-2021 17:21:58 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 17:23:19 utilities.java INFO  [main] objects.utilities 100 - java.lang.ClassCastException: class java.io.FileInputStream cannot be cast to class java.nio.file.Path (java.io.FileInputStream and java.nio.file.Path are in module java.base of loader 'bootstrap')
+10-07-2021 17:23:20 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 17:32:50 utilities.java INFO  [main] objects.utilities 100 - java.lang.ClassCastException: class java.io.FileInputStream cannot be cast to class java.nio.file.Path (java.io.FileInputStream and java.nio.file.Path are in module java.base of loader 'bootstrap')
+10-07-2021 17:32:50 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 17:42:33 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 17:43:52 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-07-2021 17:52:06 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-08-2021 12:57:23 utilities.java INFO  [main] objects.utilities 100 - Data is successfully Exported to worksheet Sheet1 at C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData.xlsx
+10-08-2021 13:02:05 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:02:05 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:02:05 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:02:05 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:02:06 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:02:49 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:02:49 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:03:31 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:08:01 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: nullSheet is Cleared
+10-08-2021 13:09:37 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: Sheet is Cleared
+10-08-2021 13:09:54 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: nullSheet is Cleared
+10-08-2021 13:10:44 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:10:44 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now....!
+10-08-2021 13:12:05 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:12:05 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:12:05 utilities.java INFO  [main] objects.utilities 100 - Data appended successfully...!
+10-08-2021 13:13:28 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:13:28 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:13:28 utilities.java INFO  [main] objects.utilities 100 - Data appended successfully...!
+10-08-2021 13:13:28 utilities.java INFO  [main] objects.utilities 100 - java.io.IOException: Cannot write data, document seems to have been closed already
+10-08-2021 13:14:19 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-08-2021 13:14:19 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:14:19 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:14:19 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:14:19 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:14:19 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:16:08 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-08-2021 13:16:08 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:16:08 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:16:08 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:16:08 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:16:08 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:17:57 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-08-2021 13:17:57 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:17:57 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:17:57 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:17:57 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:17:57 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:18:07 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-08-2021 13:18:07 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:07 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:07 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:07 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:07 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:18:16 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-08-2021 13:18:16 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:16 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:16 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:16 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:16 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:18:35 utilities.java INFO  [main] objects.utilities 100 - org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+10-08-2021 13:18:35 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:35 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:35 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:35 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:18:35 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:19:20 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:19:20 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:19:20 utilities.java INFO  [main] objects.utilities 100 - Data appended successfully...!
+10-08-2021 13:21:26 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:21:26 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:21:26 utilities.java INFO  [main] objects.utilities 100 - Data appended successfully...!
+10-08-2021 13:21:26 utilities.java INFO  [main] objects.utilities 100 - Workbook is successfully closed...!
+10-08-2021 13:21:26 utilities.java INFO  [main] objects.utilities 100 - Workbook is successfully saved & closed...!
+10-08-2021 13:23:22 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 13:23:22 utilities.java INFO  [main] objects.utilities 100 - Sheet is cleared now...!
+10-08-2021 13:23:22 utilities.java INFO  [main] objects.utilities 100 - Data appended successfully...!
+10-08-2021 13:23:22 utilities.java INFO  [main] objects.utilities 100 - Workbook is successfully saved & closed...!
+10-08-2021 16:16:26 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileSystemException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData1.csv: The process cannot access the file because it is being used by another process.
+
+10-08-2021 16:16:26 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:25:45 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData1.csv
+10-08-2021 16:25:45 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:26:40 utilities.java INFO  [main] objects.utilities 100 - java.io.FileNotFoundException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv (The system cannot find the file specified)
+10-08-2021 16:26:40 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:28:12 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:28:12 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:28:36 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:30:18 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:30:18 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:30:32 utilities.java INFO  [main] objects.utilities 100 - CSV file created and data written successfully...!
+10-08-2021 16:30:32 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:31:14 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:31:14 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:31:38 utilities.java INFO  [main] objects.utilities 100 - CSV file created and data written successfully...!
+10-08-2021 16:31:38 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:32:05 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:32:18 utilities.java INFO  [main] objects.utilities 100 - CSV file created and data written successfully...!
+10-08-2021 16:38:20 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:38:20 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:38:20 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:38:32 utilities.java INFO  [main] objects.utilities 100 - CSV file created and data written successfully...!
+10-08-2021 16:38:32 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:38:32 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:39:57 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:39:57 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:41:15 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:41:15 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
+10-08-2021 16:42:15 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:44:02 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:44:33 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:47:04 utilities.java INFO  [main] objects.utilities 100 - java.nio.file.FileAlreadyExistsException: C:\Users\sachintaw\IdeaProjects\ToolsQA\src\main\resources\testData\testData2.csv
+10-08-2021 16:49:35 utilities.java INFO  [main] objects.utilities 100 - This file is already exist, try with another filename...!
+10-08-2021 16:50:41 utilities.java INFO  [main] objects.utilities 100 - CSV file created and data written successfully...!
+10-08-2021 16:53:36 utilities.java INFO  [main] objects.utilities 100 - This file is already exist, try with another filename...!
+10-08-2021 16:54:05 utilities.java INFO  [main] objects.utilities 100 - This file is already exist, try with another filename...!
+10-08-2021 16:54:05 utilities.java INFO  [main] objects.utilities 100 - java.lang.NullPointerException: null
