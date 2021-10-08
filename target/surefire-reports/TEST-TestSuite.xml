@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="698.858" tests="54" errors="0" skipped="29" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="71.959" tests="64" errors="0" skipped="49" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -59,7 +59,7 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files (x86)\Java\jdk-11.0.12\bin;D:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin;C:\Program Files\Git\cmd;C:\Users\sachintaw\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\bin;;."/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.171-b11"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1\plugins\maven\lib\maven3\bin\m2.conf"/>
@@ -67,157 +67,202 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="validateIfAlertTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.058"/>
-  <testcase name="validateIfBookStoreTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.056"/>
-  <testcase name="validateIfElementsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.042"/>
-  <testcase name="validateIfFormsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.038"/>
-  <testcase name="validateIfInteractionsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.038"/>
-  <testcase name="validateIfLogoPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.072"/>
-  <testcase name="validateIfWidgetTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.038"/>
-  <testcase name="validatePageBanner" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.053"/>
-  <testcase name="validatePageTitle" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0.004"/>
-  <testcase name="validatePresenceOfAlertFrameWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.231"/>
-  <testcase name="validateElementScreen" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0.272"/>
-  <testcase name="validatePresenceOfWidgetOptions" classname="com.cybage.assignment.test.widgetsPageTest" time="0.417"/>
-  <testcase name="validateAccordianPageOperations" classname="com.cybage.assignment.test.widgetsPageTest" time="4.243"/>
-  <testcase name="validatePracticeFormOption" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.383"/>
-  <testcase name="validateAutoCompleteTextBoxes" classname="com.cybage.assignment.test.widgetsPageTest" time="1.486"/>
-  <testcase name="validateFormFilling" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="2.892"/>
-  <testcase name="validateAlertsOption" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="3.616"/>
-  <testcase name="validateDatePickerOperation" classname="com.cybage.assignment.test.widgetsPageTest" time="0.101"/>
-  <testcase name="validateFormAfterSubmit" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.498"/>
-  <testcase name="validateBrowserWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="4.94"/>
-  <testcase name="validateIFrameOperations" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="4.531"/>
-  <testcase name="validateModalDialogsOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.835"/>
-  <testcase name="validateNestedFramesOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.5"/>
-  <testcase name="validateBrokenLinkImagesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
-    <system-out><![CDATA[10-04-2021 10:48:09 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC027 is PASS
-]]></system-out>
-    <system-err><![CDATA[[1633325260.523][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="validateBrokenLinkImagesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;element-list collapse show&apos;]//ul//li[7]}"/>
-    <system-out><![CDATA[10-04-2021 10:57:48 utilities.java INFO  [TestNG-tests-2] objects.utilities 100 - Test Case TC017 is SKIPPED
-]]></system-out>
-    <system-err><![CDATA[[1633325275.804][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="validateBrokenLinkImagesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;element-list collapse show&apos;]//ul//li[7]}"/>
-    <system-out><![CDATA[10-04-2021 10:58:03 utilities.java INFO  [TestNG-tests-2] objects.utilities 100 - Test Case TC017 is SKIPPED
-]]></system-out>
-    <system-err><![CDATA[[1633325290.945][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="validateBrokenLinkImagesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="12.188">
-    <failure message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;element-list collapse show&apos;]//ul//li[7]}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=94.0.4606.61)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SACHINTAW-W10', ip: '172.27.85.17', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3274ba838aaeb49d70d6ff904f38728f
-*** Element info: {Using=xpath, value=//div[@class='element-list collapse show']//ul//li[7]}
-	at com.cybage.assignment.test.toolsqaElementPageTest.validateBrokenLinkImagesOperations(toolsqaElementPageTest.java:144)
+  <testcase name="testSetUp" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="1.234">
+    <failure message="key can&apos;t be null" type="java.lang.NullPointerException">java.lang.NullPointerException: key can't be null
+	at com.cybage.assignment.test.toolsqaHomePageTest.testSetUp(toolsqaHomePageTest.java:26)
 </failure>
-    <system-out><![CDATA[10-04-2021 10:58:19 utilities.java INFO  [TestNG-tests-2] objects.utilities 100 - Test Case TC017 is SKIPPED
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 ]]></system-out>
-    <system-err><![CDATA[[1633325306.164][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="24.422">
-    <failure message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=94.0.4606.61)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SACHINTAW-W10', ip: '172.27.85.17', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3274ba838aaeb49d70d6ff904f38728f
-	at com.cybage.assignment.test.toolsqaElementPageTest.captureAndReport(toolsqaElementPageTest.java:179)
+  <testcase name="testSetUp" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="1.234">
+    <failure message="key can&apos;t be null" type="java.lang.NullPointerException">java.lang.NullPointerException: key can't be null
+	at com.cybage.assignment.test.toolsqaElementPageTest.testSetUp(toolsqaElementPageTest.java:33)
 </failure>
-    <system-err><![CDATA[[1633325318.352][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
   <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="validateElementScreen" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
+  </testcase>
+  <testcase name="validateIfAlertTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
+  </testcase>
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="waitToLoadElements" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
+  </testcase>
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureAndReport" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateIfBookStoreTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
+  </testcase>
+  <testcase name="validateIfElementsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
+  </testcase>
+  <testcase name="validateIfFormsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
+  </testcase>
+  <testcase name="validateIfInteractionsTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
+  </testcase>
+  <testcase name="validateBrokenLinkImagesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+    <skipped message="Method toolsqaElementPageTest.validateBrokenLinkImagesOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="validateIfLogoPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
   </testcase>
   <testcase name="validateButtonsOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateButtonsOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
   </testcase>
   <testcase name="validateCheckBoxOperation" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateCheckBoxOperation()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
   </testcase>
   <testcase name="validateDynamicButtonsOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateDynamicButtonsOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="validateIfWidgetTabPresent" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
   </testcase>
   <testcase name="validateLinksOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateLinksOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
   </testcase>
   <testcase name="validateRadioButtonOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateRadioButtonOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
   </testcase>
   <testcase name="validateTextBoxOnSubmission" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateTextBoxOnSubmission()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="validatePageBanner" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
   </testcase>
   <testcase name="validateUploadDownloadOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateUploadDownloadOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
   </testcase>
   <testcase name="validateWebTablesOperations" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
-    <skipped message="chrome not reachable&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SACHINTAW-W10&apos;, ip: &apos;172.27.85.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: C:\Users\SACHIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3274ba838aaeb49d70d6ff904f38728f"/>
+    <skipped message="Method toolsqaElementPageTest.validateWebTablesOperations()[pri:0, instance:com.cybage.assignment.test.toolsqaElementPageTest@6a47fd] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="validatePageTitle" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped message="key can&apos;t be null"/>
   </testcase>
   <testcase name="testCleanUp" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCleanUp" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
     <skipped/>
   </testcase>
   <testcase name="releaseDriver" classname="com.cybage.assignment.test.toolsqaElementPageTest" time="0">
     <skipped/>
   </testcase>
+  <testcase name="releaseDriver" classname="com.cybage.assignment.test.toolsqaHomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validatePracticeFormOption" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.381"/>
+  <testcase name="validatePresenceOfAlertFrameWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.253"/>
+  <testcase name="validatePresenceOfWidgetOptions" classname="com.cybage.assignment.test.widgetsPageTest" time="0.438"/>
+  <testcase name="validateAccordianPageOperations" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-06-2021 14:42:04 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC029 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateAccordianPageOperations" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-06-2021 14:42:11 utilities.java INFO  [TestNG-tests-3] objects.utilities 100 - Test Case TC021 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateAccordianPageOperations" classname="com.cybage.assignment.test.widgetsPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-06-2021 14:42:15 utilities.java INFO  [TestNG-tests-3] objects.utilities 100 - Test Case TC022 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateAccordianPageOperations" classname="com.cybage.assignment.test.widgetsPageTest" time="0.011">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.cybage.assignment.test.widgetsPageTest.validateAccordianPageOperations(widgetsPageTest.java:68)
+</failure>
+    <system-out><![CDATA[10-06-2021 14:42:15 utilities.java INFO  [TestNG-tests-5] objects.utilities 100 - Test Case TC030 is SKIPPED
+]]></system-out>
+  </testcase>
+  <testcase name="validateFormFilling" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="4.013"/>
+  <testcase name="validateFormAfterSubmit" classname="com.cybage.assignment.test.toolsqaFormPageTest" time="0.428"/>
+  <testcase name="validateAlertsOption" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="3.868"/>
+  <testcase name="validateAutoCompleteTextBoxes" classname="com.cybage.assignment.test.widgetsPageTest" time="3.912"/>
+  <testcase name="validateBrowserWindowOptions" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="4.86"/>
+  <testcase name="validateDatePickerOperation" classname="com.cybage.assignment.test.widgetsPageTest" time="6.153"/>
+  <testcase name="validateIFrameOperations" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="4.437"/>
+  <testcase name="validateModalDialogsOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-06-2021 14:42:41 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC026 is PASS
+]]></system-out>
+  </testcase>
+  <testcase name="validateModalDialogsOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-06-2021 14:42:44 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC028 is SKIPPED
+]]></system-out>
+  </testcase>
+  <testcase name="validateModalDialogsOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-06-2021 14:42:47 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC028 is SKIPPED
+]]></system-out>
+  </testcase>
+  <testcase name="validateModalDialogsOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.cybage.assignment.test.alertFrameWindowPageTest.validateModalDialogsOperation(alertFrameWindowPageTest.java:112)
+</failure>
+    <system-out><![CDATA[10-06-2021 14:42:50 utilities.java INFO  [TestNG-tests-4] objects.utilities 100 - Test Case TC028 is SKIPPED
+]]></system-out>
+  </testcase>
+  <testcase name="validateNestedFramesOperation" classname="com.cybage.assignment.test.alertFrameWindowPageTest" time="0.495"/>
 </testsuite>

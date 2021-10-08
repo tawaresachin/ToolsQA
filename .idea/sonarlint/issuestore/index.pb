@@ -28,3 +28,14 @@ Fsrc/main/java/com/cybage/assignment/objects/AnnotationTransformer.java,b\6\b63
 Jenkinsfile,0\c\0c2c5c506cef0ed2d3ad2b7e45e97980b66f5520
 m
 =src/main/java/com/cybage/assignment/test/widgetsPageTest.java,d\4\d4e077e252cc133915d7c83637d61fd7a8496361
+i
+9src/main/java/com/cybage/assignment/page/widgetsPage.java,b\9\b9c7ecca644d9b097b0773225f64acb965506d90
+n
+>src/main/java/com/cybage/assignment/objects/RetryAnalyser.java,a\f\afa55dd688e6dbc349a71ff454727286acd425a7
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+i
+9src/main/java/com/cybage/assignment/objects/locators.java,a\1\a1bfd73bcd4c759567f8ef5c73fe523823c98e86

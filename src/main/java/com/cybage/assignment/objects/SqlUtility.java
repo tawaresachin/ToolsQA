@@ -78,6 +78,12 @@ public class SqlUtility extends utilities {
         }
 
             int totalColumn = result.getMetaData().getColumnCount();
+            Object[][] header=new Object[1][totalColumn];
+            for(int c=1;c<=totalColumn;c++)
+            {
+                header[0][c-1]=result.getMetaData().getColumnName(c);
+            }
+            excel.appendDataInSheet(header);
             result.last();
             int size = result.getRow();
             result.beforeFirst();

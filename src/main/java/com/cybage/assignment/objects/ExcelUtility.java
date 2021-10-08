@@ -1,7 +1,7 @@
 package com.cybage.assignment.objects;
 
-import org.apache.poi.ss.usermodel.*;
 
+import org.apache.poi.ss.usermodel.*;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -16,7 +16,6 @@ public class ExcelUtility {
     private Sheet sheet;
     private Row row;
     private Cell column;
-    ExcelUtility field;
     String stringValue;
     String numericValue;
     int lastRow;
@@ -39,7 +38,7 @@ public class ExcelUtility {
             else
             if(sheetRef instanceof Integer)
             {
-                sheet = workbook.getSheetAt(((Integer) sheetRef).intValue());
+                sheet = workbook.getSheetAt(((Integer) sheetRef));
             }
         } catch (Exception e) {
             logs(e.getClass().getName() + ": " + e.getMessage());
@@ -142,8 +141,11 @@ public class ExcelUtility {
     }
 
     /* This method is to append the data into existing sheet of workbook */
-    public ExcelUtility appendDataInSheet(Object[][]inputData)
+    public ExcelUtility appendDataInSheet(Object[][] inputData)
     {
+        CellStyle cellStyle=workbook.createCellStyle();
+        cellStyle.setAlignment(HorizontalAlignment.RIGHT);
+
         try
         {
             int rowCount = sheet.getLastRowNum();
@@ -160,15 +162,16 @@ public class ExcelUtility {
                     {
                         cell = createdRow.createCell(columnCount++);
                         if ( pos instanceof String )
-                        {
+                        {   cell.setCellStyle(cellStyle);
                             cell.setCellValue((String) pos);
                         } else if ( pos instanceof Integer )
-                        {
+                        {   cell.setCellStyle(cellStyle);
                             cell.setCellValue((Integer) pos);
                         }
                     }
                 }
             file.close();
+            logs("Data appended successfully...!");
         }
 
         catch(IOException e)
@@ -190,6 +193,7 @@ public class ExcelUtility {
         catch(Exception e)
         {
             logs(e.getClass().getName() + ": " + e.getMessage());
+            logs("Sheet is cleared now...!");
         }
         return this;
     }
@@ -199,6 +203,7 @@ public class ExcelUtility {
        try {
            outputStream = new FileOutputStream(root);
            workbook.write(outputStream);
+           logs("Workbook is successfully saved...!");
        }
        catch(Exception e)
        {
@@ -213,6 +218,7 @@ public class ExcelUtility {
             outputStream = new FileOutputStream(root);
             workbook.write(outputStream);
             closeExcel();
+            logs("Workbook is successfully saved & closed...!");
         }
         catch(Exception e)
         {
