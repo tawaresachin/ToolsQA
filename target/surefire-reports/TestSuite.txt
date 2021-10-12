@@ -1,20 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 64, Failures: 4, Errors: 0, Skipped: 49, Time elapsed: 71.959 s <<< FAILURE! - in TestSuite
-testSetUp(com.cybage.assignment.test.toolsqaHomePageTest)  Time elapsed: 1.234 s  <<< FAILURE!
-java.lang.NullPointerException: key can't be null
-	at com.cybage.assignment.test.toolsqaHomePageTest.testSetUp(toolsqaHomePageTest.java:26)
-
-testSetUp(com.cybage.assignment.test.toolsqaElementPageTest)  Time elapsed: 1.234 s  <<< FAILURE!
-java.lang.NullPointerException: key can't be null
-	at com.cybage.assignment.test.toolsqaElementPageTest.testSetUp(toolsqaElementPageTest.java:33)
-
-validateAccordianPageOperations(com.cybage.assignment.test.widgetsPageTest)  Time elapsed: 0.011 s  <<< FAILURE!
+Tests run: 39, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 103.516 s <<< FAILURE! - in TestSuite
+validateAccordianPageOperations(com.cybage.assignment.test.widgetsPageTest)  Time elapsed: 0.016 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.cybage.assignment.test.widgetsPageTest.validateAccordianPageOperations(widgetsPageTest.java:68)
 
-validateModalDialogsOperation(com.cybage.assignment.test.alertFrameWindowPageTest)  Time elapsed: 0 s  <<< FAILURE!
+validateModalDialogsOperation(com.cybage.assignment.test.alertFrameWindowPageTest)  Time elapsed: 0.01 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.cybage.assignment.test.alertFrameWindowPageTest.validateModalDialogsOperation(alertFrameWindowPageTest.java:112)
 

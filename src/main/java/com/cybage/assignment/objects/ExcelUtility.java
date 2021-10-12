@@ -1,6 +1,5 @@
 package com.cybage.assignment.objects;
 
-
 import org.apache.poi.ss.usermodel.*;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -16,13 +15,13 @@ public class ExcelUtility {
     private Sheet sheet;
     private Row row;
     private Cell column;
-    String stringValue;
-    String numericValue;
-    int lastRow;
-    int firstRow;
-    int lastCol;
-    int firstCol;
-    String root;
+    private String stringValue;
+    private String numericValue;
+    private int lastRow;
+    private int firstRow;
+    private int lastCol;
+    private int firstCol;
+    private String root;
 
     /* This method is to locate the required sheet by name from desired excel workbook */
     public ExcelUtility openExcel(String path, Object sheetRef)
