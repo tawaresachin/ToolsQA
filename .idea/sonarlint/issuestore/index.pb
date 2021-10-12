@@ -16,8 +16,6 @@ Dsrc/main/java/com/cybage/assignment/test/toolsqaElementPageTest.java,0\1\01c41
 :
 
 logger.log,2\8\282c1ac9b4d3eca41608b264094fdd616f7b809d
-v
-Fsrc/main/java/com/cybage/assignment/test/alertFrameWindowPageTest.java,2\3\23d59b42b227be2610160810724afa5c1067e9dd
 q
 Asrc/main/java/com/cybage/assignment/test/toolsqaFormPageTest.java,4\b\4b31bbf1bb3d0bbeb782a4733d8b2c8a07745fe1
 q

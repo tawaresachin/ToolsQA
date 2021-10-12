@@ -3,6 +3,8 @@ com\cybage\assignment\page\widgetsPage.class
 com\cybage\assignment\page\bookStoreApplicationPage.class
 com\cybage\assignment\test\toolsqaElementPageTest.class
 com\cybage\assignment\objects\SqlUtility.class
+com\cybage\assignment\gurock\APIException.class
+com\cybage\assignment\gurock\APIClient.class
 com\cybage\assignment\test\toolsqaFormPageTest.class
 com\cybage\assignment\objects\utilities.class
 com\cybage\assignment\objects\RetryAnalyser.class
@@ -14,7 +16,9 @@ com\cybage\assignment\page\toolsqaHomePage.class
 com\cybage\assignment\test\alertFrameWindowPageTest.class
 com\cybage\assignment\objects\toolsqaBase.class
 com\cybage\assignment\objects\AnnotationTransformer.class
+com\cybage\assignment\objects\TestRailUtility.class
 com\cybage\assignment\page\elementsPage.class
+com\cybage\assignment\objects\CsvUtility.class
 com\cybage\assignment\test\widgetsPageTest.class
 com\cybage\assignment\page\sample.class
 com\cybage\assignment\objects\ExcelUtility.class

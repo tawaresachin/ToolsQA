@@ -9,8 +9,7 @@ public class SqlUtility extends utilities {
     private CallableStatement stmt;
     private ResultSet result;
 
-
-    /* This method establish the connection with provided database*/
+    /* This method establish the connection with provided Postgres database*/
     public SqlUtility connectDB(String database) {
         String dbName=database;
         connect = null;
@@ -69,7 +68,11 @@ public class SqlUtility extends utilities {
     return this;
     }
 
-    public SqlUtility exportToExcel(String excelPath, String sheetName, boolean clearSheet) throws SQLException{
+    /* This method exports the database table as per given query & provided database to Excel file at desired location
+    * If clearSheet flag is true, it clears the existing sheet and then write data into the Excel sheet
+    * If clearSheet flag is false, it simply appends the data below existing records into the Excel sheet */
+    public SqlUtility exportToExcel(String excelPath, String sheetName, boolean clearSheet) throws SQLException
+    {
          ExcelUtility excel=new ExcelUtility();
         excel.openExcel(excelPath, sheetName);
         if(clearSheet)
@@ -80,31 +83,35 @@ public class SqlUtility extends utilities {
             int totalColumn = result.getMetaData().getColumnCount();
             Object[][] header=new Object[1][totalColumn];
             for(int c=1;c<=totalColumn;c++)
-            {
-                header[0][c-1]=result.getMetaData().getColumnName(c);
-            }
+                {
+                    header[0][c-1]=result.getMetaData().getColumnName(c);
+                }
             excel.appendDataInSheet(header);
             result.last();
             int size = result.getRow();
             result.beforeFirst();
             Object[][] data = new Object[size][totalColumn];
             int count = 0;
-            while (result.next()) {
-                for (int j = 1; j <= totalColumn; j++) {
+            while (result.next())
+            {
+                for (int j = 1; j <= totalColumn; j++)
+                {
                     Object obj = result.getObject(j);
-                    if ( obj != null ) {
+                    if ( obj != null )
+                    {
                         data[count][j - 1] = obj;
                     }
                 }
                 count++;
             }
             excel.appendDataInSheet(data).saveAndClose();
-        logs("Data is successfully Exported to worksheet "+sheetName+" at "+excelPath);
-        return this;
-        }
+            logs("Data is successfully Exported to worksheet "+sheetName+" at "+excelPath);
+    return this;
+    }
 
-        public SqlUtility closeConnection()
-        {
+    /* This method coses all DB statements & connections*/
+    public SqlUtility closeConnection()
+    {
             try {
                 stmt.close();
                 connect.close();
@@ -113,8 +120,8 @@ public class SqlUtility extends utilities {
             {
                 logs(e.getClass().getName() + ": " + e.getMessage());
             }
-            return this;
-        }
+    return this;
+    }
 
 
     }

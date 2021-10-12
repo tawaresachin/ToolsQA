@@ -45,7 +45,7 @@ public class utilities extends toolsqaBase
     static WebDriver.TargetLocator switchingTo;
     static Properties prop;
 
-    public static void screenshot(WebDriver driver,String TCID) throws IOException                                    //Generic Screenshot utility
+    public static String screenshot(WebDriver driver, String TCID) throws IOException                                    //Generic Screenshot utility
     {
        localDateTime= LocalDateTime.now();
        date=localDateTime.getMonthValue()+"_"+localDateTime.getDayOfWeek().getValue()+"_"+localDateTime.getYear();
@@ -56,8 +56,10 @@ public class utilities extends toolsqaBase
             directory.mkdir();
         }
        source =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-       dest=new File(genericProp(genPath,"screenshot")+date+"\\"+TCID+"_"+time+".jpeg");
+       String destPath=genericProp(genPath,"screenshot")+date+"\\"+TCID+"_"+time+".jpeg";
+       dest=new File(destPath);
        FileHandler.copy(source,dest);
+       return destPath;
     }
 
     public static String readWorkbook(String[] arr, int[] para) throws IOException                   //Generic Excel read utility
