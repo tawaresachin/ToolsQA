@@ -23,7 +23,6 @@ public class toolsqaHomePageTest
     @BeforeClass
     public void testSetUp() throws IOException, InterruptedException
     {
-        initialize();
         webdriver.set(browserFactory());
         driver=webdriver.get();
         driver.get(genericProp(appPath,"url"));

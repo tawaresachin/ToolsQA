@@ -1,6 +1,5 @@
 package com.cybage.assignment.objects;
 
-import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -8,21 +7,18 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
 import static com.cybage.assignment.objects.utilities.genericProp;
 
 public class toolsqaBase {
-    private static WebDriver driver;
     static FileInputStream file;
-    static ChromeOptions options;
-    public static String appPath = "C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\webAppGeneric.properties";
-    public static String genPath = "C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
+    private static ChromeOptions options;
+    public static final String appPath = "C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\webAppGeneric.properties";
+    public static final String genPath = "C:\\Users\\sachintaw\\IdeaProjects\\ToolsQA\\src\\main\\resources\\testData\\genericProperty.properties";
 
-
-    public static void initialize() throws IOException                                  //set browser specific property
+    private static void initialize() throws IOException                                  //set browser specific property
     {
         Map<String, Object> prefs = new HashMap<>();
         prefs.put("profile.default_content_setting_values.notifications", 2);       //to turn off browser notifications
@@ -44,7 +40,8 @@ public class toolsqaBase {
 
     public static WebDriver browserFactory() throws IOException                           //create browser specific webdriver
     {
-
+        initialize();
+        WebDriver driver;
         switch (genericProp(genPath, "browser")) {
             case "firefox":
                 driver = new FirefoxDriver();
@@ -56,7 +53,6 @@ public class toolsqaBase {
                 driver = new ChromeDriver(options);
                 break;
         }
-//       driver.manage().timeouts().setScriptTimeout(20000,TimeUnit.MILLISECONDS);
         return driver;
     }
 }

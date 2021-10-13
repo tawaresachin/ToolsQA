@@ -1,6 +1,7 @@
 package com.cybage.assignment.objects;
 
 
+import io.qameta.allure.Attachment;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.ss.usermodel.*;
@@ -15,6 +16,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 import java.util.*;
@@ -44,6 +47,8 @@ public class utilities extends toolsqaBase
     static String st;
     static WebDriver.TargetLocator switchingTo;
     static Properties prop;
+    static String destPath;
+    static byte[] fileBytes;
 
     public static String screenshot(WebDriver driver, String TCID) throws IOException                                    //Generic Screenshot utility
     {
@@ -56,11 +61,13 @@ public class utilities extends toolsqaBase
             directory.mkdir();
         }
        source =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-       String destPath=genericProp(genPath,"screenshot")+date+"\\"+TCID+"_"+time+".jpeg";
+       destPath=genericProp(genPath,"screenshot")+date+"\\"+TCID+"_"+time+".jpeg";
        dest=new File(destPath);
        FileHandler.copy(source,dest);
        return destPath;
     }
+
+
 
     public static String readWorkbook(String[] arr, int[] para) throws IOException                   //Generic Excel read utility
     {

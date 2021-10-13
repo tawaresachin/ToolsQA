@@ -27,7 +27,6 @@ public class toolsqaFormPageTest extends locators
     @BeforeClass
     public void testSetUp() throws IOException
     {
-        initialize();
         webdriver.set(browserFactory());
         driver=webdriver.get();
         driver.get(genericProp(appPath,"url"));
