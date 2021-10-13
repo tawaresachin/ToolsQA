@@ -1,12 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 39, Failures: 2, Errors: 0, Skipped: 7, Time elapsed: 103.516 s <<< FAILURE! - in TestSuite
-validateAccordianPageOperations(com.cybage.assignment.test.widgetsPageTest)  Time elapsed: 0.016 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.cybage.assignment.test.widgetsPageTest.validateAccordianPageOperations(widgetsPageTest.java:68)
-
-validateModalDialogsOperation(com.cybage.assignment.test.alertFrameWindowPageTest)  Time elapsed: 0.01 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.cybage.assignment.test.alertFrameWindowPageTest.validateModalDialogsOperation(alertFrameWindowPageTest.java:112)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.268 s <<< FAILURE! - in TestSuite
+testMethod1(com.cybage.assignment.page.sample)  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: Method-1 failure expected [true] but found [false]
+	at com.cybage.assignment.page.sample.testMethod1(sample.java:74)
 

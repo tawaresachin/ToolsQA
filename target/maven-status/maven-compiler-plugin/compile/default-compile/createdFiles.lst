@@ -1,4 +1,5 @@
 com\cybage\assignment\page\formsPage.class
+com\cybage\assignment\objects\Allure_Listener.class
 com\cybage\assignment\page\widgetsPage.class
 com\cybage\assignment\page\bookStoreApplicationPage.class
 com\cybage\assignment\test\toolsqaElementPageTest.class
