@@ -1,2 +1,3 @@
-Generic Path:
-  -testRun=1
+GenericPath:
+  ExcelPath: This is excel path
+  CSVPath: This is CSV path
