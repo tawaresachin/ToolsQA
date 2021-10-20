@@ -1,5 +1,6 @@
 package com.cybage.assignment.objects;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -24,13 +25,13 @@ public class toolsqaBase {
         prefs.put("profile.default_content_setting_values.notifications", 2);       //to turn off browser notifications
         switch (genericProp(genPath, "browser")) {
             case "firefox":
-                System.setProperty(genericProp(genPath, "geckoProperty"), genericProp(genPath, "geckoPath"));
+                WebDriverManager.chromedriver().setup();
                 break;
             case "edge":
-                System.setProperty(genericProp(genPath, "edgeProperty"), genericProp(genPath, "edgePath"));
+                WebDriverManager.edgedriver().setup();
                 break;
             default:
-                System.setProperty(genericProp(genPath, "chromeProperty"), genericProp(genPath, "chromePath"));
+                WebDriverManager.chromedriver().setup();
                 options = new ChromeOptions();
                 options.setExperimentalOption("prefs", prefs);       //to handle browser notification
                 options.setAcceptInsecureCerts(true);                      // to handle SSL certificates

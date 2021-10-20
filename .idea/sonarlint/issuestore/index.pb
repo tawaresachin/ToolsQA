@@ -35,15 +35,9 @@ i
 9src/main/java/com/cybage/assignment/gurock/APIClient.java,f\d\fdef67d076edfdceabb3e882014f1b9468cec6cf
 p
 @src/main/java/com/cybage/assignment/objects/TestRailUtility.java,5\b\5bbd8a622ee43e9e5c62c895c741ede27d41f029
-n
->src/main/java/com/cybage/assignment/objects/RetryAnalyser.java,a\f\afa55dd688e6dbc349a71ff454727286acd425a7
-v
-Fsrc/main/java/com/cybage/assignment/objects/AnnotationTransformer.java,b\6\b636cf3afc0b60e3305525e36d20b0157804c612
 :
 
 logger.log,2\8\282c1ac9b4d3eca41608b264094fdd616f7b809d
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 v
 Fsrc/main/java/com/cybage/assignment/test/alertFrameWindowPageTest.java,2\3\23d59b42b227be2610160810724afa5c1067e9dd
 ;
@@ -51,3 +45,7 @@ Fsrc/main/java/com/cybage/assignment/test/alertFrameWindowPageTest.java,2\3\23d
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+q
+Asrc/main/java/com/cybage/assignment/objects/ObjectProperties.java,e\5\e56d79e87e9e72327d658a2108562c71065d8eff
+v
+Fsrc/main/java/com/cybage/assignment/objects/AnnotationTransformer.java,b\6\b636cf3afc0b60e3305525e36d20b0157804c612

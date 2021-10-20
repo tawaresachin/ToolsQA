@@ -8,9 +8,7 @@ import com.cybage.assignment.objects.Allure_Listener;
 import com.cybage.assignment.objects.TestRailUtility;
 import com.cybage.assignment.objects.toolsqaBase;
 import io.qameta.allure.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.testng.Assert;
 //import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -71,7 +69,10 @@ public class sample
     {
         tcID="1";
         System.out.println("Executing Test Method-1");
-        Assert.assertTrue(false, "Method-1 failure");
+        WebElement ele = driver.findElement(By.xpath("//*[@title='Search']"));
+        highlightElement(driver,ele);
+        ele.sendKeys("Google");
+        Assert.assertTrue(true, "Method-1 failure");
     }
 
     @Test(description = "T2- Validate Home Page Logo")

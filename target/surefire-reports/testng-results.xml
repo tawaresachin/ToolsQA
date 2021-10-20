@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestUtilities" duration-ms="8378" started-at="2021-10-13T09:01:23Z" finished-at="2021-10-13T09:01:32Z">
+  <suite name="TestUtilities" duration-ms="9787" started-at="2021-10-19T10:48:22Z" finished-at="2021-10-19T10:48:32Z">
     <groups>
     </groups>
-    <test name="SampleTest" duration-ms="8378" started-at="2021-10-13T09:01:23Z" finished-at="2021-10-13T09:01:32Z">
+    <test name="SampleTest" duration-ms="9787" started-at="2021-10-19T10:48:22Z" finished-at="2021-10-19T10:48:32Z">
       <class name="com.cybage.assignment.page.sample">
-        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="beforeClassMethod" is-config="true" duration-ms="3697" started-at="2021-10-13T09:01:23Z" finished-at="2021-10-13T09:01:27Z">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="beforeClassMethod" is-config="true" duration-ms="5965" started-at="2021-10-19T10:48:22Z" finished-at="2021-10-19T10:48:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-10-13T09:01:27Z" finished-at="2021-10-13T09:01:27Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-10-19T10:48:28Z" finished-at="2021-10-19T10:48:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testMethod1()[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="testMethod1" duration-ms="31" started-at="2021-10-13T09:01:27Z" description="T1 -Validate all options on Home Page" finished-at="2021-10-13T09:01:27Z">
+        <test-method status="FAIL" signature="testMethod1()[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="testMethod1" duration-ms="26" started-at="2021-10-19T10:48:29Z" description="T1 -Validate all options on Home Page" finished-at="2021-10-19T10:48:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Method-1 failure expected [true] but found [false]]]>
@@ -52,37 +52,37 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="afterMethod" is-config="true" duration-ms="3009" started-at="2021-10-13T09:01:27Z" finished-at="2021-10-13T09:01:30Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="afterMethod" is-config="true" duration-ms="2416" started-at="2021-10-19T10:48:29Z" finished-at="2021-10-19T10:48:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testMethod1 status=FAILURE method=sample.testMethod1()[pri:0, instance:com.cybage.assignment.page.sample@1849272] output={null}]]]>
+                <![CDATA[[TestResult name=testMethod1 status=FAILURE method=sample.testMethod1()[pri:0, instance:com.cybage.assignment.page.sample@356ed6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testMethod2()[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="testMethod2" duration-ms="0" started-at="2021-10-13T09:01:30Z" description="T2- Validate Home Page Logo" finished-at="2021-10-13T09:01:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod2 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-10-13T09:01:30Z" finished-at="2021-10-13T09:01:30Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2021-10-19T10:48:31Z" finished-at="2021-10-19T10:48:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="afterMethod" is-config="true" duration-ms="470" started-at="2021-10-13T09:01:30Z" finished-at="2021-10-13T09:01:31Z">
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="testMethod2" duration-ms="2" started-at="2021-10-19T10:48:31Z" description="T2- Validate Home Page Logo" finished-at="2021-10-19T10:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="afterMethod" is-config="true" duration-ms="463" started-at="2021-10-19T10:48:31Z" finished-at="2021-10-19T10:48:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testMethod2 status=SUCCESS method=sample.testMethod2()[pri:0, instance:com.cybage.assignment.page.sample@1849272] output={null}]]]>
+                <![CDATA[[TestResult name=testMethod2 status=SUCCESS method=sample.testMethod2()[pri:0, instance:com.cybage.assignment.page.sample@356ed6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.page.sample@1849272]" name="testCleanUp" is-config="true" duration-ms="1044" started-at="2021-10-13T09:01:31Z" finished-at="2021-10-13T09:01:32Z">
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.cybage.assignment.page.sample@356ed6]" name="testCleanUp" is-config="true" duration-ms="829" started-at="2021-10-19T10:48:31Z" finished-at="2021-10-19T10:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->
