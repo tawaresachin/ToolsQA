@@ -23,7 +23,7 @@ public class ObjectProperties
         {
             e.printStackTrace();
         }
-        return map.get(objectCall.split("\\.")[1]).toString();
+        return map.get(objectCall.split("\\.")[1].trim()).toString();
     }
 
     /* To set path of desired yaml file to be used */

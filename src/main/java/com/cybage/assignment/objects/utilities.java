@@ -247,4 +247,13 @@ public class utilities extends toolsqaBase
         return (prop.getProperty(param));
     }
 
+    public static void highlightElement(WebDriver driver,WebElement ele)
+    {
+        if(ele.isDisplayed()) {
+            js=(JavascriptExecutor) driver;
+            js.executeScript("arguments[0].removeAttribute('disabled','disabled')",ele);
+            js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", ele);
+        }
+    }
+
 }
